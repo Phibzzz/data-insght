@@ -1,0 +1,37 @@
+[server]
+# Taille maximale d'import (Mo) — doit rester cohérente avec config/settings.py
+maxUploadSize = 500
+enableXsrfProtection = true
+
+[browser]
+# Aucune statistique d'usage transmise : les données restent locales.
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+font = "sans-serif"
+baseRadius = "0.6rem"
+
+# Thème clair (choisissable via ⋮ › Settings › Theme)
+[theme.light]
+primaryColor = "#4F46E5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+borderColor = "#E2E8F0"
+
+[theme.light.sidebar]
+backgroundColor = "#F8FAFC"
+
+# Thème sombre
+[theme.dark]
+primaryColor = "#818CF8"
+backgroundColor = "#0B1120"
+secondaryBackgroundColor = "#111827"
+textColor = "#E5E7EB"
+borderColor = "#1F2937"
+
+[theme.dark.sidebar]
+backgroundColor = "#0F172A"

@@ -1,0 +1,24 @@
+[project]
+name = "datainsight"
+version = "1.0.0"
+description = "DATAINSIGHT – Intelligent Dataset Analyzer (Streamlit)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore::UserWarning:matplotlib.*",
+    "ignore::DeprecationWarning:pyreadstat.*",
+]
+
+[tool.pylint.format]
+max-line-length = 130
+
+[tool.pylint."messages control"]
+disable = ["too-many-locals", "too-many-branches", "too-many-statements", "too-many-return-statements",
+           "too-many-instance-attributes", "too-many-arguments", "too-many-positional-arguments",
+           "missing-function-docstring", "import-outside-toplevel", "broad-exception-caught"]
+
+[tool.ruff]
+line-length = 130

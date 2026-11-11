@@ -1,0 +1,21 @@
+{
+  "nav.section.start": "Démarrer",
+  "nav.section.analysis": "Analyser",
+  "nav.section.prepare": "Préparer & exporter",
+  "nav.home": "Accueil",
+  "nav.import": "Importation des données",
+  "nav.overview": "Vue d'ensemble",
+  "nav.explore": "Exploration",
+  "nav.profile": "Profil des variables",
+  "nav.stats": "Statistiques descriptives",
+  "nav.multivariate": "Analyse multivariée",
+  "nav.quality": "Qualité des données",
+  "nav.viz": "Visualisations",
+  "nav.cleaning": "Nettoyage des données",
+  "nav.reports": "Rapports",
+  "nav.settings": "Paramètres",
+  "home.tagline": "Importez un jeu de données : DATAINSIGHT en reconnaît la structure, en évalue la qualité, calcule les statistiques, génère les graphiques et rédige un rapport, sans quitter votre poste.",
+  "common.no_data": "Aucun jeu de données chargé.",
+  "common.download": "Télécharger",
+  "common.reset": "Réinitialiser"
+}

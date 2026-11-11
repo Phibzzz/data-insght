@@ -1,0 +1,1383 @@
+{
+  "application": "DATAINSIGHT – Intelligent Dataset Analyzer v1.0.0",
+  "date_generation": "2026-11-11T00:59:14",
+  "sections": [
+    "presentation",
+    "general",
+    "variables",
+    "statistics",
+    "missing",
+    "quality",
+    "correlations",
+    "visualizations",
+    "interpretations",
+    "recommendations"
+  ],
+  "synthese_executive": [
+    "Le jeu de données contient 1 000 observations et 12 variables (5 quantitative(s), 5 qualitative(s), 1 temporelle(s), 1 autre(s)).",
+    "Taux global de valeurs manquantes : 4,5 % ; lignes complètes : 463 ; doublons : 0.",
+    "Score de qualité (heuristique) : 97,9/100 (excellente) ; 3 problème(s) majeur(s) ou critique(s).",
+    "2 variable(s) quantitative(s) à distribution asymétrique : prix_unitaire, montant_total.",
+    "1 corrélation(s) forte(s) ; la plus marquée : prix_unitaire × montant_total (r = 0,870).",
+    "Points d'attention prioritaires : valeurs atypiques potentielles (prix_unitaire) ; valeurs atypiques potentielles (montant_total) ; valeurs manquantes (commentaire)."
+  ],
+  "fichier": {
+    "fichier": "ventes_mixte.csv",
+    "format": "CSV (valeurs séparées)",
+    "taille_octets": 137867,
+    "encodage": "utf-8",
+    "separateur": ",",
+    "feuille": null,
+    "table": null,
+    "membre_zip": null,
+    "tronque": false,
+    "avertissements": []
+  },
+  "caracteristiques": {
+    "n_rows": 1000,
+    "n_cols": 12,
+    "n_cells": 12000,
+    "n_missing": 537,
+    "missing_ratio": 0.04475,
+    "n_duplicates": 0,
+    "duplicate_ratio": 0.0,
+    "memory_mb": 0.15347671508789062,
+    "n_numeric": 5,
+    "n_categorical": 5,
+    "n_temporal": 1,
+    "n_other": 1,
+    "n_empty_columns": 0,
+    "n_constant_columns": 0,
+    "n_complete_rows": 463
+  },
+  "variables": [
+    {
+      "name": "id_commande",
+      "technical_type": "str",
+      "storage_type": "texte",
+      "stat_type": "Identifiant",
+      "detected_stat_type": "Identifiant",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 1000,
+      "unique_ratio": 1.0,
+      "confidence": 0.85,
+      "reason": "Valeurs uniques sans espaces : identifiant probable.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "CMD-100000",
+        "CMD-100001",
+        "CMD-100002",
+        "CMD-100003",
+        "CMD-100004"
+      ],
+      "family": "Autre"
+    },
+    {
+      "name": "date_commande",
+      "technical_type": "str",
+      "storage_type": "texte (date)",
+      "stat_type": "Date",
+      "detected_stat_type": "Date",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 541,
+      "unique_ratio": 0.541,
+      "confidence": 0.95,
+      "reason": "Valeurs de date (sans heure). Format : %Y-%m-%d.",
+      "conversion": "datetime",
+      "date_format": "%Y-%m-%d",
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "2023-03-07",
+        "2024-07-18",
+        "2024-04-22",
+        "2023-11-17",
+        "2023-11-13"
+      ],
+      "family": "Temporelle"
+    },
+    {
+      "name": "produit",
+      "technical_type": "str",
+      "storage_type": "texte",
+      "stat_type": "Catégorielle nominale",
+      "detected_stat_type": "Catégorielle nominale",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 5,
+      "unique_ratio": 0.005,
+      "confidence": 0.85,
+      "reason": "5 modalités distinctes.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "Souris",
+        "Casque",
+        "Clavier",
+        "Écran",
+        "Ordinateur"
+      ],
+      "family": "Qualitative"
+    },
+    {
+      "name": "ville",
+      "technical_type": "str",
+      "storage_type": "texte",
+      "stat_type": "Catégorielle nominale",
+      "detected_stat_type": "Catégorielle nominale",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 5,
+      "unique_ratio": 0.005,
+      "confidence": 0.85,
+      "reason": "5 modalités distinctes.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Lille",
+        "Toulouse"
+      ],
+      "family": "Qualitative"
+    },
+    {
+      "name": "latitude",
+      "technical_type": "float64",
+      "storage_type": "réel",
+      "stat_type": "Latitude",
+      "detected_stat_type": "Latitude",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 1000,
+      "unique_ratio": 1.0,
+      "confidence": 0.95,
+      "reason": "Nom évocateur et valeurs dans [-90, 90].",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "48.85753026340429",
+        "43.297779554227375",
+        "48.84913114067301",
+        "45.78612012583006",
+        "43.28992160259333"
+      ],
+      "family": "Quantitative"
+    },
+    {
+      "name": "longitude",
+      "technical_type": "float64",
+      "storage_type": "réel",
+      "stat_type": "Longitude",
+      "detected_stat_type": "Longitude",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 1000,
+      "unique_ratio": 1.0,
+      "confidence": 0.95,
+      "reason": "Nom évocateur et valeurs dans [-180, 180].",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "2.309035006745041",
+        "5.369056784301322",
+        "2.3317947341576315",
+        "4.837726141103065",
+        "5.348245272839055"
+      ],
+      "family": "Quantitative"
+    },
+    {
+      "name": "quantite",
+      "technical_type": "int64",
+      "storage_type": "entier",
+      "stat_type": "Numérique discrète",
+      "detected_stat_type": "Numérique discrète",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 5,
+      "unique_ratio": 0.005,
+      "confidence": 0.85,
+      "reason": "Entiers avec 5 valeurs distinctes.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "4",
+        "5",
+        "2",
+        "3",
+        "1"
+      ],
+      "family": "Quantitative"
+    },
+    {
+      "name": "prix_unitaire",
+      "technical_type": "float64",
+      "storage_type": "réel",
+      "stat_type": "Numérique continue",
+      "detected_stat_type": "Numérique continue",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 919,
+      "unique_ratio": 0.919,
+      "confidence": 0.9,
+      "reason": "Nombres réels.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "22.95",
+        "26.82",
+        "72.3",
+        "43.97",
+        "42.89"
+      ],
+      "family": "Quantitative"
+    },
+    {
+      "name": "montant_total",
+      "technical_type": "float64",
+      "storage_type": "réel",
+      "stat_type": "Numérique continue",
+      "detected_stat_type": "Numérique continue",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 993,
+      "unique_ratio": 0.993,
+      "confidence": 0.9,
+      "reason": "Nombres réels.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "91.8",
+        "107.26",
+        "361.51",
+        "219.85",
+        "171.56"
+      ],
+      "family": "Quantitative"
+    },
+    {
+      "name": "remise_appliquee",
+      "technical_type": "bool",
+      "storage_type": "booléen",
+      "stat_type": "Booléenne",
+      "detected_stat_type": "Booléenne",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 2,
+      "unique_ratio": 0.002,
+      "confidence": 1.0,
+      "reason": "Type booléen natif.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "False",
+        "True"
+      ],
+      "family": "Qualitative"
+    },
+    {
+      "name": "note_client",
+      "technical_type": "int64",
+      "storage_type": "entier",
+      "stat_type": "Catégorielle ordinale",
+      "detected_stat_type": "Catégorielle ordinale",
+      "n_rows": 1000,
+      "n_missing": 0,
+      "n_unique": 5,
+      "unique_ratio": 0.005,
+      "confidence": 0.75,
+      "reason": "Échelle entière courte et nom évocateur (note, niveau…).",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "4",
+        "5",
+        "3",
+        "1",
+        "2"
+      ],
+      "family": "Qualitative"
+    },
+    {
+      "name": "commentaire",
+      "technical_type": "str",
+      "storage_type": "texte",
+      "stat_type": "Catégorielle nominale",
+      "detected_stat_type": "Catégorielle nominale",
+      "n_rows": 1000,
+      "n_missing": 537,
+      "n_unique": 4,
+      "unique_ratio": 0.0086,
+      "confidence": 0.85,
+      "reason": "4 modalités distinctes.",
+      "conversion": null,
+      "date_format": null,
+      "ordinal_order": null,
+      "overridden": false,
+      "sample_values": [
+        "Livraison rapide et produit conforme à la description, je re",
+        "Emballage abîmé mais le produit fonctionne correctement aprè",
+        "Service client réactif, remboursement effectué sans difficul",
+        "Qualité décevante pour le prix, je ne commanderai probableme"
+      ],
+      "family": "Qualitative"
+    }
+  ],
+  "statistiques_quantitatives": [
+    {
+      "Variable": "latitude",
+      "Effectif": 1000,
+      "Valides": 1000,
+      "Manquants": 0,
+      "Moyenne": 46.5199924702,
+      "Médiane": 45.7667503292,
+      "Mode": "",
+      "Minimum": 43.2521943977,
+      "Maximum": 50.6839900827,
+      "Étendue": 7.431795685,
+      "Variance": 8.1758375362,
+      "Écart-type": 2.8593421509,
+      "Q1": 43.595311615,
+      "Q2 (médiane)": 45.7667503292,
+      "Q3": 48.8683604678,
+      "IQR": 5.2730488528,
+      "Coef. de variation": 0.0614648025,
+      "Asymétrie": 0.204646886,
+      "Aplatissement (excès)": -1.5799905428,
+      "Erreur-type": 0.0904203381,
+      "IC95 bas": 46.3425568918,
+      "IC95 haut": 46.6974280485,
+      "P5": 43.2826337689,
+      "P95": 50.6407640123,
+      "MAD": 2.4750360441,
+      "Somme": 46519.9924701566,
+      "Zéros": 0,
+      "Négatifs": 0,
+      "Valeurs uniques": 1000,
+      "Infinis": 0,
+      "Test de normalité": "Shapiro-Wilk",
+      "p-value normalité": 1.768459946e-31
+    },
+    {
+      "Variable": "longitude",
+      "Effectif": 1000,
+      "Valides": 1000,
+      "Manquants": 0,
+      "Moyenne": 3.3710236027,
+      "Médiane": 3.0526758167,
+      "Mode": "",
+      "Minimum": 1.3970502508,
+      "Maximum": 5.4346251815,
+      "Étendue": 4.0375749307,
+      "Variance": 2.1582412915,
+      "Écart-type": 1.469095399,
+      "Q1": 2.3360512189,
+      "Q2 (médiane)": 3.0526758167,
+      "Q3": 4.8456593662,
+      "IQR": 2.5096081473,
+      "Coef. de variation": 0.4358009828,
+      "Asymétrie": 0.1622897843,
+      "Aplatissement (excès)": -1.5281272373,
+      "Erreur-type": 0.0464568756,
+      "IC95 bas": 3.2798593496,
+      "IC95 haut": 3.4621878559,
+      "P5": 1.4299503123,
+      "P95": 5.3818490153,
+      "MAD": 1.6060027103,
+      "Somme": 3371.0236027241,
+      "Zéros": 0,
+      "Négatifs": 0,
+      "Valeurs uniques": 1000,
+      "Infinis": 0,
+      "Test de normalité": "Shapiro-Wilk",
+      "p-value normalité": 1.397366467e-29
+    },
+    {
+      "Variable": "quantite",
+      "Effectif": 1000,
+      "Valides": 1000,
+      "Manquants": 0,
+      "Moyenne": 3.005,
+      "Médiane": 3.0,
+      "Mode": "4",
+      "Minimum": 1.0,
+      "Maximum": 5.0,
+      "Étendue": 4.0,
+      "Variance": 1.9529279279,
+      "Écart-type": 1.3974719775,
+      "Q1": 2.0,
+      "Q2 (médiane)": 3.0,
+      "Q3": 4.0,
+      "IQR": 2.0,
+      "Coef. de variation": 0.465048911,
+      "Asymétrie": -0.0243532659,
+      "Aplatissement (excès)": -1.2737476657,
+      "Erreur-type": 0.0441919442,
+      "IC95 bas": 2.9182803157,
+      "IC95 haut": 3.0917196843,
+      "P5": 1.0,
+      "P95": 5.0,
+      "MAD": 1.0,
+      "Somme": 3005.0,
+      "Zéros": 0,
+      "Négatifs": 0,
+      "Valeurs uniques": 5,
+      "Infinis": 0,
+      "Test de normalité": "Shapiro-Wilk",
+      "p-value normalité": 5.71959983e-26
+    },
+    {
+      "Variable": "prix_unitaire",
+      "Effectif": 1000,
+      "Valides": 1000,
+      "Manquants": 0,
+      "Moyenne": 207.62437,
+      "Médiane": 48.69,
+      "Mode": "23.93, 25.03",
+      "Minimum": 19.47,
+      "Maximum": 1063.66,
+      "Étendue": 1044.19,
+      "Variance": 91410.3416985016,
+      "Écart-type": 302.341432322,
+      "Q1": 27.4,
+      "Q2 (médiane)": 48.69,
+      "Q3": 220.1,
+      "IQR": 192.7,
+      "Coef. de variation": 1.4561943394,
+      "Asymétrie": 1.7655169505,
+      "Aplatissement (excès)": 1.4963537673,
+      "Erreur-type": 9.5608755718,
+      "IC95 bas": 188.8626674608,
+      "IC95 haut": 226.3860725392,
+      "P5": 23.3615,
+      "P95": 932.4545,
+      "MAD": 25.185,
+      "Somme": 207624.37,
+      "Zéros": 0,
+      "Négatifs": 0,
+      "Valeurs uniques": 919,
+      "Infinis": 0,
+      "Test de normalité": "Shapiro-Wilk",
+      "p-value normalité": 2.593543212e-42
+    },
+    {
+      "Variable": "montant_total",
+      "Effectif": 1000,
+      "Valides": 1000,
+      "Manquants": 0,
+      "Moyenne": 623.25016,
+      "Médiane": 176.395,
+      "Mode": "23.01, 23.39, 48.88…",
+      "Minimum": 19.47,
+      "Maximum": 5121.87,
+      "Étendue": 5102.4,
+      "Variance": 1061715.6257701446,
+      "Écart-type": 1030.3958587699,
+      "Q1": 87.1675,
+      "Q2 (médiane)": 176.395,
+      "Q3": 666.645,
+      "IQR": 579.4775,
+      "Coef. de variation": 1.6532620846,
+      "Asymétrie": 2.44574125,
+      "Aplatissement (excès)": 5.2709047449,
+      "Erreur-type": 32.5839780532,
+      "IC95 bas": 559.3092688976,
+      "IC95 haut": 687.1910511024,
+      "P5": 26.8865,
+      "P95": 3470.689,
+      "MAD": 123.795,
+      "Somme": 623250.1599999999,
+      "Zéros": 0,
+      "Négatifs": 0,
+      "Valeurs uniques": 993,
+      "Infinis": 0,
+      "Test de normalité": "Shapiro-Wilk",
+      "p-value normalité": 4.81277255e-43
+    }
+  ],
+  "statistiques_qualitatives": {
+    "produit": {
+      "resume": {
+        "Variable": "produit",
+        "Effectif": 1000,
+        "Valides": 1000,
+        "Manquants": 0,
+        "Modalités": 5,
+        "Modalité dominante": "Souris",
+        "Effectif dominante": 286,
+        "% dominante": 28.6,
+        "Entropie normalisée": 0.9665,
+        "Ordonnée": "non"
+      },
+      "frequences": [
+        {
+          "Modalité": "Souris",
+          "Effectif": 286,
+          "Fréquence": 0.286,
+          "%": 28.6
+        },
+        {
+          "Modalité": "Clavier",
+          "Effectif": 253,
+          "Fréquence": 0.253,
+          "%": 25.3
+        },
+        {
+          "Modalité": "Écran",
+          "Effectif": 200,
+          "Fréquence": 0.2,
+          "%": 20.0
+        },
+        {
+          "Modalité": "Ordinateur",
+          "Effectif": 152,
+          "Fréquence": 0.152,
+          "%": 15.2
+        },
+        {
+          "Modalité": "Casque",
+          "Effectif": 109,
+          "Fréquence": 0.109,
+          "%": 10.9
+        }
+      ]
+    },
+    "ville": {
+      "resume": {
+        "Variable": "ville",
+        "Effectif": 1000,
+        "Valides": 1000,
+        "Manquants": 0,
+        "Modalités": 5,
+        "Modalité dominante": "Paris",
+        "Effectif dominante": 236,
+        "% dominante": 23.6,
+        "Entropie normalisée": 0.9975,
+        "Ordonnée": "non"
+      },
+      "frequences": [
+        {
+          "Modalité": "Paris",
+          "Effectif": 236,
+          "Fréquence": 0.236,
+          "%": 23.6
+        },
+        {
+          "Modalité": "Lyon",
+          "Effectif": 195,
+          "Fréquence": 0.195,
+          "%": 19.5
+        },
+        {
+          "Modalité": "Marseille",
+          "Effectif": 191,
+          "Fréquence": 0.191,
+          "%": 19.1
+        },
+        {
+          "Modalité": "Toulouse",
+          "Effectif": 191,
+          "Fréquence": 0.191,
+          "%": 19.1
+        },
+        {
+          "Modalité": "Lille",
+          "Effectif": 187,
+          "Fréquence": 0.187,
+          "%": 18.7
+        }
+      ]
+    },
+    "remise_appliquee": {
+      "resume": {
+        "Variable": "remise_appliquee",
+        "Effectif": 1000,
+        "Valides": 1000,
+        "Manquants": 0,
+        "Modalités": 2,
+        "Modalité dominante": "Faux",
+        "Effectif dominante": 740,
+        "% dominante": 74.0,
+        "Entropie normalisée": 0.8267,
+        "Ordonnée": "non"
+      },
+      "frequences": [
+        {
+          "Modalité": "Faux",
+          "Effectif": 740,
+          "Fréquence": 0.74,
+          "%": 74.0
+        },
+        {
+          "Modalité": "Vrai",
+          "Effectif": 260,
+          "Fréquence": 0.26,
+          "%": 26.0
+        }
+      ]
+    },
+    "note_client": {
+      "resume": {
+        "Variable": "note_client",
+        "Effectif": 1000,
+        "Valides": 1000,
+        "Manquants": 0,
+        "Modalités": 5,
+        "Modalité dominante": "4",
+        "Effectif dominante": 362,
+        "% dominante": 36.2,
+        "Entropie normalisée": 0.8869,
+        "Ordonnée": "oui"
+      },
+      "frequences": [
+        {
+          "Modalité": "1",
+          "Effectif": 54,
+          "Fréquence": 0.054,
+          "%": 5.4,
+          "Effectif cumulé": 54,
+          "% cumulé": 5.4
+        },
+        {
+          "Modalité": "2",
+          "Effectif": 95,
+          "Fréquence": 0.095,
+          "%": 9.5,
+          "Effectif cumulé": 149,
+          "% cumulé": 14.9
+        },
+        {
+          "Modalité": "3",
+          "Effectif": 194,
+          "Fréquence": 0.194,
+          "%": 19.4,
+          "Effectif cumulé": 343,
+          "% cumulé": 34.3
+        },
+        {
+          "Modalité": "4",
+          "Effectif": 362,
+          "Fréquence": 0.362,
+          "%": 36.2,
+          "Effectif cumulé": 705,
+          "% cumulé": 70.5
+        },
+        {
+          "Modalité": "5",
+          "Effectif": 295,
+          "Fréquence": 0.295,
+          "%": 29.5,
+          "Effectif cumulé": 1000,
+          "% cumulé": 100.0
+        }
+      ]
+    },
+    "commentaire": {
+      "resume": {
+        "Variable": "commentaire",
+        "Effectif": 1000,
+        "Valides": 463,
+        "Manquants": 537,
+        "Modalités": 4,
+        "Modalité dominante": "Service client réactif, remboursement effectué sans difficulté particulière.",
+        "Effectif dominante": 131,
+        "% dominante": 28.29,
+        "Entropie normalisée": 0.9979,
+        "Ordonnée": "non"
+      },
+      "frequences": [
+        {
+          "Modalité": "Service client réactif, remboursement effectué sans difficulté particulière.",
+          "Effectif": 131,
+          "Fréquence": 0.282937,
+          "%": 28.29
+        },
+        {
+          "Modalité": "Livraison rapide et produit conforme à la description, je recommande vivement.",
+          "Effectif": 113,
+          "Fréquence": 0.24406,
+          "%": 24.41
+        },
+        {
+          "Modalité": "Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle.",
+          "Effectif": 110,
+          "Fréquence": 0.237581,
+          "%": 23.76
+        },
+        {
+          "Modalité": "Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.",
+          "Effectif": 109,
+          "Fréquence": 0.235421,
+          "%": 23.54
+        }
+      ]
+    }
+  },
+  "statistiques_temporelles": {
+    "date_commande": {
+      "resume": {
+        "Variable": "date_commande",
+        "Effectif": 1000,
+        "Valides": 1000,
+        "Manquants": 0,
+        "Date minimale": "2023-01-04T00:00:00",
+        "Date maximale": "2024-12-30T00:00:00",
+        "Étendue (jours)": 726.0,
+        "Dates distinctes": 541,
+        "Fréquence estimée": "journalière",
+        "Écart médian (jours)": 1.0,
+        "Ruptures détectées": 134,
+        "Horodatages dupliqués": 459,
+        "Dates futures": 0,
+        "Dates < 1900": 0
+      },
+      "irregularites": [
+        "134 interruption(s) : écart supérieur à 1,5 × l'écart médian (1.00 j).",
+        "24.8 % des écarts s'éloignent de la fréquence journalière."
+      ],
+      "par_annee": [
+        {
+          "Année": "2023",
+          "Effectif": 491,
+          "%": 49.1
+        },
+        {
+          "Année": "2024",
+          "Effectif": 509,
+          "%": 50.9
+        }
+      ],
+      "par_mois": [
+        {
+          "Mois": "Janvier",
+          "Effectif": 83,
+          "%": 8.3
+        },
+        {
+          "Mois": "Février",
+          "Effectif": 70,
+          "%": 7.0
+        },
+        {
+          "Mois": "Mars",
+          "Effectif": 98,
+          "%": 9.8
+        },
+        {
+          "Mois": "Avril",
+          "Effectif": 97,
+          "%": 9.7
+        },
+        {
+          "Mois": "Mai",
+          "Effectif": 81,
+          "%": 8.1
+        },
+        {
+          "Mois": "Juin",
+          "Effectif": 76,
+          "%": 7.6
+        },
+        {
+          "Mois": "Juillet",
+          "Effectif": 88,
+          "%": 8.8
+        },
+        {
+          "Mois": "Août",
+          "Effectif": 93,
+          "%": 9.3
+        },
+        {
+          "Mois": "Septembre",
+          "Effectif": 67,
+          "%": 6.7
+        },
+        {
+          "Mois": "Octobre",
+          "Effectif": 58,
+          "%": 5.8
+        },
+        {
+          "Mois": "Novembre",
+          "Effectif": 99,
+          "%": 9.9
+        },
+        {
+          "Mois": "Décembre",
+          "Effectif": 90,
+          "%": 9.0
+        }
+      ],
+      "par_jour": [
+        {
+          "Jour": "Lundi",
+          "Effectif": 140,
+          "%": 14.0
+        },
+        {
+          "Jour": "Mardi",
+          "Effectif": 132,
+          "%": 13.2
+        },
+        {
+          "Jour": "Mercredi",
+          "Effectif": 133,
+          "%": 13.3
+        },
+        {
+          "Jour": "Jeudi",
+          "Effectif": 156,
+          "%": 15.6
+        },
+        {
+          "Jour": "Vendredi",
+          "Effectif": 141,
+          "%": 14.1
+        },
+        {
+          "Jour": "Samedi",
+          "Effectif": 157,
+          "%": 15.7
+        },
+        {
+          "Jour": "Dimanche",
+          "Effectif": 141,
+          "%": 14.1
+        }
+      ]
+    }
+  },
+  "valeurs_manquantes": [
+    {
+      "Variable": "commentaire",
+      "Valeurs manquantes": 537,
+      "% manquants": 53.7,
+      "Valeurs renseignées": 463
+    },
+    {
+      "Variable": "id_commande",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "date_commande",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "produit",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "ville",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "latitude",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "longitude",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "quantite",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "prix_unitaire",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "montant_total",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "remise_appliquee",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    },
+    {
+      "Variable": "note_client",
+      "Valeurs manquantes": 0,
+      "% manquants": 0.0,
+      "Valeurs renseignées": 1000
+    }
+  ],
+  "qualite": {
+    "score_global": 97.89,
+    "appreciation": "Excellente",
+    "sous_scores": {
+      "completeness": 95.53,
+      "uniqueness": 100.0,
+      "validity": 100.0,
+      "consistency": 100.0,
+      "outliers": 94.56
+    },
+    "ponderations": {
+      "completeness": 0.35,
+      "uniqueness": 0.2,
+      "validity": 0.2,
+      "consistency": 0.15,
+      "outliers": 0.1
+    },
+    "indicateurs": {
+      "Taux de complétude (%)": 95.53,
+      "Taux de valeurs manquantes (%)": 4.47,
+      "Taux de doublons (%)": 0.0,
+      "Taux de validité (%)": 100.0,
+      "Lignes complètes (%)": 46.3
+    },
+    "problemes": [
+      {
+        "Contrôle": "Valeurs manquantes",
+        "Variable": "commentaire",
+        "Sévérité": "critique",
+        "Nombre": 537,
+        "%": 53.7,
+        "Constat": "53.7 % de valeurs manquantes.",
+        "Recommandation": "Supprimer la colonne (> 50 %) ou imputer (médiane pour le numérique, mode pour le catégoriel) après analyse du mécanisme de non-réponse."
+      },
+      {
+        "Contrôle": "Valeurs atypiques potentielles",
+        "Variable": "prix_unitaire",
+        "Sévérité": "majeur",
+        "Nombre": 152,
+        "%": 15.2,
+        "Constat": "152 valeur(s) hors de [-261.6 ; 509.1] (IQR × 1.5), dont 0 également avec |z| > 3.",
+        "Recommandation": "Vérifier ces valeurs : une valeur atypique n'est pas nécessairement une erreur (phénomène réel, sous-population). Corriger les erreurs avérées ; sinon envisager une transformation (log) ou des méthodes robustes."
+      },
+      {
+        "Contrôle": "Valeurs atypiques potentielles",
+        "Variable": "montant_total",
+        "Sévérité": "majeur",
+        "Nombre": 120,
+        "%": 12.0,
+        "Constat": "120 valeur(s) hors de [-782 ; 1536] (IQR × 1.5), dont 38 également avec |z| > 3.",
+        "Recommandation": "Vérifier ces valeurs : une valeur atypique n'est pas nécessairement une erreur (phénomène réel, sous-population). Corriger les erreurs avérées ; sinon envisager une transformation (log) ou des méthodes robustes."
+      },
+      {
+        "Contrôle": "Type de données incorrect",
+        "Variable": "date_commande",
+        "Sévérité": "info",
+        "Nombre": 1000,
+        "%": 100.0,
+        "Constat": "Dates stockées sous forme de texte (format %Y-%m-%d).",
+        "Recommandation": "Convertir en type date et harmoniser le format (ISO 8601 recommandé)."
+      }
+    ],
+    "scores_colonnes": [
+      {
+        "Variable": "commentaire",
+        "Type": "Catégorielle nominale",
+        "Complétude (%)": 46.3,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 76.5
+      },
+      {
+        "Variable": "prix_unitaire",
+        "Type": "Numérique continue",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 84.8,
+        "Score (/100)": 98.1
+      },
+      {
+        "Variable": "montant_total",
+        "Type": "Numérique continue",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 88.0,
+        "Score (/100)": 98.5
+      },
+      {
+        "Variable": "id_commande",
+        "Type": "Identifiant",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "date_commande",
+        "Type": "Date",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "produit",
+        "Type": "Catégorielle nominale",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "ville",
+        "Type": "Catégorielle nominale",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "latitude",
+        "Type": "Latitude",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "longitude",
+        "Type": "Longitude",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "quantite",
+        "Type": "Numérique discrète",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "remise_appliquee",
+        "Type": "Booléenne",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      },
+      {
+        "Variable": "note_client",
+        "Type": "Catégorielle ordinale",
+        "Complétude (%)": 100.0,
+        "Validité (%)": 100.0,
+        "Cohérence (%)": 100.0,
+        "Hors atypiques (%)": 100.0,
+        "Score (/100)": 100.0
+      }
+    ],
+    "valeurs_atypiques": [
+      {
+        "Variable": "quantite",
+        "n": 1000,
+        "Borne basse (IQR)": -1.0,
+        "Borne haute (IQR)": 7.0,
+        "Atypiques IQR": 0,
+        "% IQR": 0.0,
+        "Atypiques |z|>3": 0,
+        "Signalées par les deux": 0
+      },
+      {
+        "Variable": "prix_unitaire",
+        "n": 1000,
+        "Borne basse (IQR)": -261.65,
+        "Borne haute (IQR)": 509.15,
+        "Atypiques IQR": 152,
+        "% IQR": 15.2,
+        "Atypiques |z|>3": 0,
+        "Signalées par les deux": 0
+      },
+      {
+        "Variable": "montant_total",
+        "n": 1000,
+        "Borne basse (IQR)": -782.0487,
+        "Borne haute (IQR)": 1535.8612,
+        "Atypiques IQR": 120,
+        "% IQR": 12.0,
+        "Atypiques |z|>3": 38,
+        "Signalées par les deux": 38
+      }
+    ],
+    "avertissement": "Score heuristique : ni universel, ni substitut à une validation métier."
+  },
+  "correlations": {
+    "methode": "spearman",
+    "justification": "2 variable(s) fortement asymétrique(s) et 2 avec des valeurs extrêmes : Spearman (sur les rangs) est plus robuste que Pearson.",
+    "matrice": [
+      {
+        "variable": "latitude",
+        "latitude": 1.0,
+        "longitude": -0.274419,
+        "quantite": -0.00244,
+        "prix_unitaire": 0.012498,
+        "montant_total": 0.017469
+      },
+      {
+        "variable": "longitude",
+        "latitude": -0.274419,
+        "longitude": 1.0,
+        "quantite": 0.008992,
+        "prix_unitaire": -0.040422,
+        "montant_total": -0.029004
+      },
+      {
+        "variable": "quantite",
+        "latitude": -0.00244,
+        "longitude": 0.008992,
+        "quantite": 1.0,
+        "prix_unitaire": 0.009858,
+        "montant_total": 0.434733
+      },
+      {
+        "variable": "prix_unitaire",
+        "latitude": 0.012498,
+        "longitude": -0.040422,
+        "quantite": 0.009858,
+        "prix_unitaire": 1.0,
+        "montant_total": 0.870151
+      },
+      {
+        "variable": "montant_total",
+        "latitude": 0.017469,
+        "longitude": -0.029004,
+        "quantite": 0.434733,
+        "prix_unitaire": 0.870151,
+        "montant_total": 1.0
+      }
+    ],
+    "paires": [
+      {
+        "Variable 1": "prix_unitaire",
+        "Variable 2": "montant_total",
+        "Coefficient": 0.8702,
+        "|r|": 0.8702,
+        "Intensité": "forte",
+        "Sens": "positive",
+        "p-value": 5.422324715e-309,
+        "n": 1000
+      },
+      {
+        "Variable 1": "quantite",
+        "Variable 2": "montant_total",
+        "Coefficient": 0.4347,
+        "|r|": 0.4347,
+        "Intensité": "modérée",
+        "Sens": "positive",
+        "p-value": 2.319928125e-47,
+        "n": 1000
+      },
+      {
+        "Variable 1": "latitude",
+        "Variable 2": "longitude",
+        "Coefficient": -0.2744,
+        "|r|": 0.2744,
+        "Intensité": "faible",
+        "Sens": "négative",
+        "p-value": 9.812459161e-19,
+        "n": 1000
+      },
+      {
+        "Variable 1": "longitude",
+        "Variable 2": "prix_unitaire",
+        "Coefficient": -0.0404,
+        "|r|": 0.0404,
+        "Intensité": "négligeable",
+        "Sens": "négative",
+        "p-value": 0.2015361996,
+        "n": 1000
+      },
+      {
+        "Variable 1": "longitude",
+        "Variable 2": "montant_total",
+        "Coefficient": -0.029,
+        "|r|": 0.029,
+        "Intensité": "négligeable",
+        "Sens": "négative",
+        "p-value": 0.3595505723,
+        "n": 1000
+      },
+      {
+        "Variable 1": "latitude",
+        "Variable 2": "montant_total",
+        "Coefficient": 0.0175,
+        "|r|": 0.0175,
+        "Intensité": "négligeable",
+        "Sens": "positive",
+        "p-value": 0.5810973511,
+        "n": 1000
+      },
+      {
+        "Variable 1": "latitude",
+        "Variable 2": "prix_unitaire",
+        "Coefficient": 0.0125,
+        "|r|": 0.0125,
+        "Intensité": "négligeable",
+        "Sens": "positive",
+        "p-value": 0.6930334751,
+        "n": 1000
+      },
+      {
+        "Variable 1": "quantite",
+        "Variable 2": "prix_unitaire",
+        "Coefficient": 0.0099,
+        "|r|": 0.0099,
+        "Intensité": "négligeable",
+        "Sens": "positive",
+        "p-value": 0.7555275884,
+        "n": 1000
+      },
+      {
+        "Variable 1": "longitude",
+        "Variable 2": "quantite",
+        "Coefficient": 0.009,
+        "|r|": 0.009,
+        "Intensité": "négligeable",
+        "Sens": "positive",
+        "p-value": 0.7764116436,
+        "n": 1000
+      },
+      {
+        "Variable 1": "latitude",
+        "Variable 2": "quantite",
+        "Coefficient": -0.0024,
+        "|r|": 0.0024,
+        "Intensité": "négligeable",
+        "Sens": "négative",
+        "p-value": 0.9385852304,
+        "n": 1000
+      }
+    ],
+    "associations_fortes": [
+      {
+        "Variable 1": "prix_unitaire",
+        "Variable 2": "montant_total",
+        "Mesure": "Corrélation (Spearman)",
+        "Valeur": 0.8702,
+        "Intensité": "forte"
+      },
+      {
+        "Variable 1": "latitude",
+        "Variable 2": "ville",
+        "Mesure": "η² (rapport de corrélation)",
+        "Valeur": 1.0,
+        "Intensité": "forte"
+      },
+      {
+        "Variable 1": "longitude",
+        "Variable 2": "ville",
+        "Mesure": "η² (rapport de corrélation)",
+        "Valeur": 0.9998,
+        "Intensité": "forte"
+      },
+      {
+        "Variable 1": "prix_unitaire",
+        "Variable 2": "produit",
+        "Mesure": "η² (rapport de corrélation)",
+        "Valeur": 0.9901,
+        "Intensité": "forte"
+      },
+      {
+        "Variable 1": "montant_total",
+        "Variable 2": "produit",
+        "Mesure": "η² (rapport de corrélation)",
+        "Valeur": 0.7641,
+        "Intensité": "forte"
+      }
+    ]
+  },
+  "interpretations": {
+    "Constat": [
+      "« prix_unitaire » présente une forte dispersion : coefficient de variation de 145,6 % (écart-type 302,34 pour une moyenne de 207,62).",
+      "Distribution de « prix_unitaire » asymétrique à droite (queue vers les grandes valeurs) : skewness = 1,77.",
+      "« montant_total » présente une forte dispersion : coefficient de variation de 165,3 % (écart-type 1 030,40 pour une moyenne de 623,25).",
+      "Distribution de « montant_total » asymétrique à droite (queue vers les grandes valeurs) : skewness = 2,45.",
+      "« commentaire » est très incomplète : 53,7 % de valeurs manquantes.",
+      "Corrélation forte et positive entre « prix_unitaire » et « montant_total » (Spearman r = 0,870, n = 1000).",
+      "« date_commande » couvre du 04/01/2023 au 30/12/2024 (726 jours), fréquence estimée : journalière.",
+      "« date_commande » : 134 interruption(s) : écart supérieur à 1,5 × l'écart médian (1.00 j).",
+      "« date_commande » : 24.8 % des écarts s'éloignent de la fréquence journalière.",
+      "« prix_unitaire » : 152 valeurs atypiques selon la règle IQR (15,2 %).",
+      "« montant_total » : 120 valeurs atypiques selon la règle IQR (12,0 %).",
+      "« Faux » est majoritaire dans « remise_appliquee » (74,0 %)."
+    ],
+    "Interprétation": [
+      "La moyenne de « prix_unitaire » résume mal les observations ; la médiane (48,69) et l'écart interquartile sont plus représentatifs.",
+      "La moyenne de « montant_total » résume mal les observations ; la médiane (176,39) et l'écart interquartile sont plus représentatifs.",
+      "« montant_total » a des queues épaisses (excès d'aplatissement 5,27) : les valeurs extrêmes sont plus fréquentes que pour une loi normale.",
+      "Une corrélation mesure une association, pas une causalité : un facteur commun ou une relation mathématique (ex. total = prix × quantité) peut l'expliquer.",
+      "Les tests de normalité (Shapiro-Wilk ou D'Agostino, α = 0.05) rejettent l'hypothèse de normalité pour 5 variable(s) : latitude, longitude, quantite, prix_unitaire, montant_total. Privilégier des méthodes non paramétriques (médiane, Spearman, Kruskal-Wallis) pour ces variables."
+    ],
+    "Hypothèse": [
+      "Les 134 interruption(s) de « date_commande » peuvent refléter des périodes sans activité (week-ends, fermetures) ou des données non collectées.",
+      "Les manquants de « commentaire » peuvent ne pas être aléatoires (question facultative, information non applicable) : vérifier avant toute imputation.",
+      "Des variables très corrélées peuvent porter une information redondante."
+    ],
+    "Recommandation": [
+      "Valeurs manquantes — commentaire : Supprimer la colonne (> 50 %) ou imputer (médiane pour le numérique, mode pour le catégoriel) après analyse du mécanisme de non-réponse.",
+      "Valeurs atypiques potentielles — prix_unitaire : Vérifier ces valeurs : une valeur atypique n'est pas nécessairement une erreur (phénomène réel, sous-population). Corriger les erreurs avérées ; sinon envisager une transformation (log) ou des méthodes robustes.",
+      "Valeurs atypiques potentielles — montant_total : Vérifier ces valeurs : une valeur atypique n'est pas nécessairement une erreur (phénomène réel, sous-population). Corriger les erreurs avérées ; sinon envisager une transformation (log) ou des méthodes robustes.",
+      "Envisager une transformation logarithmique de « prix_unitaire » (valeurs strictement positives) avant des méthodes supposant la normalité.",
+      "Envisager une transformation logarithmique de « montant_total » (valeurs strictement positives) avant des méthodes supposant la normalité."
+    ]
+  },
+  "recommandations": [
+    "Valeurs manquantes — commentaire : Supprimer la colonne (> 50 %) ou imputer (médiane pour le numérique, mode pour le catégoriel) après analyse du mécanisme de non-réponse.",
+    "Valeurs atypiques potentielles — prix_unitaire : Vérifier ces valeurs : une valeur atypique n'est pas nécessairement une erreur (phénomène réel, sous-population). Corriger les erreurs avérées ; sinon envisager une transformation (log) ou des méthodes robustes.",
+    "Valeurs atypiques potentielles — montant_total : Vérifier ces valeurs : une valeur atypique n'est pas nécessairement une erreur (phénomène réel, sous-population). Corriger les erreurs avérées ; sinon envisager une transformation (log) ou des méthodes robustes.",
+    "Envisager une transformation logarithmique de « prix_unitaire » (valeurs strictement positives) avant des méthodes supposant la normalité.",
+    "Envisager une transformation logarithmique de « montant_total » (valeurs strictement positives) avant des méthodes supposant la normalité."
+  ]
+}

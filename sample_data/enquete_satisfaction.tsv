@@ -1,0 +1,401 @@
+region	genre	abonne	satisfaction	canal	niveau
+Bretagne	F	non	insatisfait	web	moyen
+Occitanie	F	non	neutre	web	moyen
+Grand Est	M	non	insatisfait	téléphone	faible
+Bretagne	M	non	insatisfait	web	moyen
+Île-de-France	M	non	satisfait	web	fort
+Grand Est	M	non	neutre	web	faible
+Bretagne	M	non	très satisfait	téléphone	faible
+Bretagne	F	oui	neutre	web	fort
+Île-de-France	F	non	satisfait	magasin	moyen
+Occitanie	M	non	neutre	magasin	fort
+Occitanie	F	non	satisfait	magasin	moyen
+Grand Est	M	non	satisfait	téléphone	fort
+Bretagne	M	non	neutre	magasin	moyen
+Grand Est	F	non	très satisfait	téléphone	faible
+Occitanie	M	oui	neutre	web	fort
+Île-de-France	M	non	insatisfait	magasin	moyen
+Occitanie	F	non	satisfait	web	faible
+Île-de-France	F	non	satisfait	web	moyen
+Grand Est	M	oui	très insatisfait	magasin	moyen
+Bretagne	M	oui	neutre	téléphone	faible
+Bretagne	F	non	très satisfait	magasin	fort
+Occitanie	M	non	satisfait	web	faible
+Grand Est	F	non	très satisfait	web	faible
+Grand Est	M	non	satisfait	web	moyen
+Bretagne	M	non	satisfait	web	fort
+Île-de-France	F	non	neutre	web	fort
+Occitanie	M	non	très satisfait	web	fort
+Île-de-France	M	oui	neutre	web	faible
+Île-de-France	M	non	satisfait	magasin	fort
+Bretagne	F	non	neutre	web	fort
+Bretagne	F	non	satisfait	téléphone	moyen
+Grand Est	F	non	satisfait	magasin	moyen
+Île-de-France	F	oui	satisfait	web	faible
+Occitanie	F	non	très satisfait	web	fort
+Occitanie	M	oui	neutre	web	fort
+Île-de-France	M	oui	satisfait	téléphone	moyen
+Île-de-France	M	non	neutre	web	moyen
+Occitanie	F	non	neutre	web	moyen
+Île-de-France	F	non	neutre	téléphone	faible
+Bretagne	M	non	insatisfait	téléphone	moyen
+Occitanie	F	non	insatisfait	web	fort
+Grand Est	M	non	satisfait	web	fort
+Bretagne	M	oui	satisfait	web	fort
+Île-de-France	F	oui	satisfait	web	moyen
+Grand Est	F	non	très insatisfait	web	fort
+Grand Est	F	non	neutre	web	moyen
+Occitanie	F	oui	insatisfait	téléphone	moyen
+Île-de-France	F	non	satisfait	web	moyen
+Bretagne	M	non	très satisfait	magasin	fort
+Île-de-France	M	oui	neutre	web	fort
+Île-de-France	M	non	satisfait	magasin	faible
+Île-de-France	M	non	insatisfait	magasin	faible
+Bretagne	M	non	neutre	magasin	moyen
+Bretagne	F	oui	insatisfait	téléphone	moyen
+Bretagne	F	non	neutre	web	fort
+Bretagne	M	non	satisfait	web	moyen
+Occitanie	F	non	très satisfait	web	moyen
+Occitanie	F	oui	neutre	web	fort
+Île-de-France	M	non	satisfait	téléphone	moyen
+Île-de-France	M	non	satisfait	web	moyen
+Bretagne	M	oui	très satisfait	magasin	moyen
+Occitanie	M	non	satisfait	web	moyen
+Occitanie	F	oui	neutre	web	fort
+Bretagne	M	oui	satisfait	web	fort
+Bretagne	M	non	neutre	magasin	moyen
+Occitanie	M	non	très satisfait	magasin	moyen
+Occitanie	M	non	neutre	web	moyen
+Île-de-France	M	non	satisfait	web	faible
+Île-de-France	F	oui	très insatisfait	magasin	moyen
+Occitanie	F	non	neutre	web	faible
+Île-de-France	F	oui	très satisfait	téléphone	faible
+Occitanie	F	non	satisfait	web	faible
+Grand Est	F	non	neutre	web	moyen
+Île-de-France	F	non	très satisfait	web	faible
+Île-de-France	M	non	très satisfait	web	moyen
+Île-de-France	M	non	neutre	web	moyen
+Île-de-France	M	non	satisfait	web	moyen
+Bretagne	M	non	neutre	téléphone	fort
+Occitanie	M	oui	satisfait	web	moyen
+Bretagne	M	non	neutre	web	fort
+Bretagne	F	oui	neutre	web	fort
+Occitanie	M	oui	très satisfait	web	faible
+Grand Est	F	oui	très satisfait	web	faible
+Île-de-France	F	non	satisfait	web	moyen
+Île-de-France	M	non	très satisfait	magasin	fort
+Île-de-France	M	non	satisfait	web	faible
+Bretagne	F	non	satisfait	téléphone	faible
+Occitanie	F	non	satisfait	web	fort
+Île-de-France	F	non	neutre	magasin	fort
+Occitanie	F	non	neutre	web	faible
+Île-de-France	F	oui	neutre	web	moyen
+Bretagne	M	non	satisfait	magasin	moyen
+Occitanie	M	oui	neutre	magasin	faible
+Occitanie	M	non	neutre	magasin	faible
+Île-de-France	M	non	satisfait	web	moyen
+Bretagne	M	non	neutre	magasin	moyen
+Occitanie	M	non	neutre	magasin	faible
+Île-de-France	F	non	satisfait	magasin	moyen
+Île-de-France	F	non	très satisfait	web	faible
+Grand Est	M	oui	insatisfait	magasin	fort
+Grand Est	F	oui	très insatisfait	magasin	faible
+Bretagne	F	non	neutre	téléphone	faible
+Île-de-France	F	oui	satisfait	web	faible
+Grand Est	M	non	satisfait	web	fort
+Bretagne	F	oui	insatisfait	magasin	fort
+Bretagne	M	non	satisfait	web	moyen
+Occitanie	F	non	insatisfait	magasin	faible
+Île-de-France	F	non	neutre	web	fort
+Île-de-France	F	non	très satisfait	web	moyen
+Grand Est	F	non	insatisfait	magasin	fort
+Occitanie	M	non	insatisfait	web	moyen
+Île-de-France	F	non	neutre	web	fort
+Île-de-France	F	non	satisfait	magasin	fort
+Occitanie	M	non	très satisfait	magasin	faible
+Île-de-France	M	non	très satisfait	magasin	fort
+Grand Est	F	oui	insatisfait	web	faible
+Bretagne	M	non	insatisfait	web	moyen
+Bretagne	M	oui	satisfait	téléphone	faible
+Occitanie	F	non	neutre	web	fort
+Bretagne	M	non	très satisfait	web	faible
+Occitanie	M	non	satisfait	web	moyen
+Bretagne	M	non	insatisfait	web	moyen
+Île-de-France	F	oui	satisfait	magasin	fort
+Occitanie	F	non	insatisfait	magasin	fort
+Île-de-France	F	oui	neutre	magasin	faible
+Occitanie	M	oui	satisfait	web	fort
+Île-de-France	M	oui	satisfait	web	faible
+Île-de-France	F	oui	satisfait	web	moyen
+Île-de-France	F	non	satisfait	web	moyen
+Occitanie	M	non	très satisfait	web	moyen
+Île-de-France	M	non	très satisfait	web	fort
+Grand Est	M	oui	satisfait	web	fort
+Occitanie	F	oui	insatisfait	web	moyen
+Île-de-France	M	non	satisfait	magasin	fort
+Occitanie	F	oui	très satisfait	web	faible
+Île-de-France	M	non	neutre	web	faible
+Grand Est	F	oui	neutre	magasin	moyen
+Occitanie	F	non	neutre	magasin	moyen
+Bretagne	F	non	insatisfait	magasin	fort
+Île-de-France	M	non	satisfait	web	fort
+Occitanie	M	oui	neutre	magasin	faible
+Occitanie	F	oui	satisfait	web	faible
+Grand Est	M	non	satisfait	web	fort
+Occitanie	F	oui	satisfait	web	moyen
+Occitanie	F	non	neutre	web	faible
+Île-de-France	F	non	neutre	web	fort
+Île-de-France	M	non	satisfait	web	moyen
+Occitanie	F	non	satisfait	magasin	fort
+Occitanie	M	non	neutre	web	fort
+Île-de-France	F	non	très satisfait	web	fort
+Grand Est	F	oui	insatisfait	web	moyen
+Grand Est	F	non	très satisfait	web	fort
+Île-de-France	M	oui	insatisfait	web	fort
+Occitanie	F	non	insatisfait	web	faible
+Île-de-France	M	non	satisfait	web	faible
+Bretagne	M	oui	insatisfait	magasin	faible
+Île-de-France	F	non	insatisfait	téléphone	moyen
+Bretagne	M	non	très insatisfait	web	moyen
+Bretagne	M	oui	neutre	magasin	faible
+Bretagne	F	non	satisfait	magasin	moyen
+Île-de-France	F	non	très insatisfait	téléphone	faible
+Grand Est	F	oui	satisfait	magasin	moyen
+Île-de-France	M	oui	satisfait	magasin	moyen
+Île-de-France	F	oui	insatisfait	téléphone	moyen
+Occitanie	M	non	insatisfait	magasin	moyen
+Occitanie	M	oui	très satisfait	web	moyen
+Grand Est	M	oui	satisfait	web	fort
+Grand Est	F	oui	satisfait	web	fort
+Île-de-France	M	oui	satisfait	web	fort
+Grand Est	F	non	insatisfait	web	moyen
+Île-de-France	F	oui	neutre	web	moyen
+Occitanie	F	non	satisfait	web	faible
+Île-de-France	F	non	neutre	web	moyen
+Grand Est	F	non	satisfait	magasin	faible
+Île-de-France	F	oui	satisfait	web	moyen
+Île-de-France	F	non	satisfait	web	faible
+Occitanie	F	non	neutre	magasin	moyen
+Corse	M	oui	neutre	magasin	fort
+Grand Est	F	non	neutre	téléphone	fort
+Bretagne	M	non	neutre	magasin	moyen
+Grand Est	M	oui	satisfait	magasin	faible
+Grand Est	M	non	insatisfait	web	faible
+Occitanie	M	non	insatisfait	web	faible
+Île-de-France	M	non	insatisfait	web	fort
+Bretagne	M	non	insatisfait	magasin	fort
+Bretagne	M	non	satisfait	téléphone	moyen
+Occitanie	M	non	neutre	web	faible
+Île-de-France	F	non	très satisfait	web	faible
+Bretagne	F	non	insatisfait	web	fort
+Île-de-France	M	non	satisfait	web	faible
+Grand Est	F	oui	neutre	web	faible
+Île-de-France	M	non	neutre	web	faible
+Île-de-France	F	non	très satisfait	téléphone	faible
+Grand Est	F	oui	très satisfait	web	moyen
+Île-de-France	M	oui	très satisfait	magasin	fort
+Île-de-France	M	non	insatisfait	magasin	faible
+Occitanie	M	oui	neutre	web	fort
+Grand Est	F	oui	satisfait	web	faible
+Île-de-France	M	non	neutre	magasin	faible
+Île-de-France	M	non	satisfait	web	faible
+Bretagne	M	non	satisfait	téléphone	fort
+Grand Est	M	non	satisfait	web	moyen
+Occitanie	M	non	satisfait	magasin	fort
+Île-de-France	M	non	satisfait	magasin	faible
+Île-de-France	F	oui	très insatisfait	web	faible
+Île-de-France	M	oui	très insatisfait	web	fort
+Île-de-France	M	non	satisfait	téléphone	faible
+Bretagne	M	oui	neutre	web	faible
+Île-de-France	M	non	neutre	web	moyen
+Occitanie	M	non	neutre	web	moyen
+Bretagne	F	oui	satisfait	web	faible
+Occitanie	M	oui	satisfait	magasin	moyen
+Île-de-France	F	non	satisfait	magasin	fort
+Grand Est	F	non	neutre	web	moyen
+Bretagne	M	oui	neutre	magasin	moyen
+Bretagne	M	non	satisfait	web	faible
+Île-de-France	F	non	neutre	web	moyen
+Île-de-France	F	non	satisfait	web	fort
+Grand Est	F	non	satisfait	téléphone	moyen
+Occitanie	F	oui	insatisfait	web	fort
+Île-de-France	F	oui	très insatisfait	web	faible
+Occitanie	F	non	neutre	web	faible
+Bretagne	M	oui	très satisfait	magasin	moyen
+Grand Est	M	non	satisfait	web	faible
+Île-de-France	M	non	insatisfait	web	moyen
+Grand Est	F	oui	très satisfait	magasin	fort
+Île-de-France	F	non	neutre	web	moyen
+Occitanie	F	oui	neutre	web	moyen
+Bretagne	M	non	très satisfait	web	fort
+Île-de-France	F	oui	insatisfait	web	faible
+Île-de-France	F	non	neutre	web	fort
+Occitanie	F	non	satisfait	magasin	faible
+Grand Est	M	non	insatisfait	magasin	fort
+Occitanie	F	non	satisfait	magasin	moyen
+Grand Est	F	non	neutre	téléphone	faible
+Grand Est	M	non	insatisfait	web	fort
+Occitanie	M	non	neutre	web	faible
+Bretagne	F	non	neutre	téléphone	moyen
+Île-de-France	F	non	insatisfait	web	fort
+Île-de-France	M	non	insatisfait	magasin	fort
+Grand Est	M	oui	très satisfait	magasin	fort
+Bretagne	M	non	neutre	web	moyen
+Île-de-France	F	non	neutre	web	moyen
+Occitanie	F	non	insatisfait	web	faible
+Bretagne	M	oui	neutre	web	fort
+Grand Est	F	non	neutre	web	moyen
+Bretagne	F	non	satisfait	web	fort
+Occitanie	M	non	neutre	magasin	moyen
+Occitanie	M	oui	très satisfait	téléphone	fort
+Occitanie	F	non	très satisfait	magasin	faible
+Bretagne	M	oui	insatisfait	web	fort
+Grand Est	F	oui	insatisfait	web	faible
+Occitanie	M	non	insatisfait	web	faible
+Île-de-France	M	non	satisfait	web	moyen
+Île-de-France	F	oui	insatisfait	téléphone	moyen
+Bretagne	M	non	très satisfait	web	fort
+Grand Est	F	non	satisfait	web	moyen
+Île-de-France	M	non	satisfait	magasin	faible
+Île-de-France	F	non	satisfait	web	faible
+Occitanie	F	non	très satisfait	web	moyen
+Île-de-France	M	non	très insatisfait	web	moyen
+Grand Est	M	non	neutre	magasin	moyen
+Île-de-France	F	non	neutre	magasin	faible
+Île-de-France	M	non	très satisfait	web	moyen
+Grand Est	M	oui	satisfait	téléphone	moyen
+Île-de-France	F	non	satisfait	magasin	fort
+Île-de-France	M	non	insatisfait	magasin	moyen
+Île-de-France	M	non	très satisfait	web	fort
+Île-de-France	F	oui	neutre	web	faible
+Île-de-France	F	oui	neutre	magasin	fort
+Île-de-France	M	non	très satisfait	web	faible
+Île-de-France	F	oui	neutre	magasin	faible
+Île-de-France	M	non	neutre	magasin	fort
+Occitanie	M	non	satisfait	web	moyen
+Bretagne	F	non	insatisfait	magasin	moyen
+Occitanie	F	non	neutre	téléphone	moyen
+Île-de-France	M	non	insatisfait	magasin	fort
+Occitanie	F	non	insatisfait	web	faible
+Grand Est	F	non	très satisfait	magasin	faible
+Grand Est	M	non	satisfait	web	faible
+Île-de-France	M	non	neutre	magasin	fort
+Île-de-France	M	non	neutre	magasin	faible
+Île-de-France	M	non	neutre	magasin	moyen
+Île-de-France	M	non	satisfait	web	moyen
+Occitanie	F	oui	très satisfait	web	faible
+Occitanie	M	non	très satisfait	web	moyen
+Île-de-France	M	non	neutre	web	faible
+Occitanie	M	oui	neutre	web	faible
+Occitanie	M	oui	neutre	web	faible
+Île-de-France	F	non	satisfait	web	fort
+Grand Est	M	non	neutre	magasin	moyen
+Île-de-France	F	non	satisfait	téléphone	fort
+Grand Est	M	oui	satisfait	web	moyen
+Île-de-France	F	oui	neutre	magasin	faible
+Grand Est	F	non	neutre	magasin	moyen
+Grand Est	F	non	neutre	web	fort
+Grand Est	M	oui	insatisfait	web	moyen
+Grand Est	M	oui	insatisfait	magasin	faible
+Bretagne	F	oui	satisfait	téléphone	faible
+Bretagne	F	non	neutre	magasin	fort
+Bretagne	F	non	neutre	téléphone	moyen
+Île-de-France	F	oui	satisfait	téléphone	fort
+Occitanie	M	oui	satisfait	web	moyen
+Occitanie	F	non	neutre	magasin	faible
+Grand Est	F	non	satisfait	web	fort
+Occitanie	F	non	très satisfait	téléphone	fort
+Occitanie	F	non	satisfait	web	fort
+Bretagne	M	oui	satisfait	web	fort
+Île-de-France	M	oui	insatisfait	magasin	faible
+Île-de-France	F	oui	très satisfait	web	fort
+Occitanie	M	non	neutre	magasin	faible
+Occitanie	F	non	très satisfait	web	fort
+Île-de-France	F	non	satisfait	téléphone	faible
+Occitanie	F	non	très insatisfait	magasin	moyen
+Occitanie	F	non	très insatisfait	web	fort
+Île-de-France	F	non	satisfait	magasin	faible
+Occitanie	M	oui	satisfait	web	faible
+Bretagne	M	oui	très insatisfait	magasin	fort
+Île-de-France	M	non	satisfait	magasin	faible
+Grand Est	F	non	très satisfait	magasin	moyen
+Grand Est	F	oui	neutre	web	fort
+Occitanie	F	non	neutre	web	moyen
+Île-de-France	F	non	très insatisfait	magasin	moyen
+Occitanie	F	non	satisfait	web	moyen
+Grand Est	M	oui	neutre	web	moyen
+Bretagne	M	oui	très satisfait	web	moyen
+Grand Est	M	oui	neutre	web	moyen
+Occitanie	M	non	satisfait	magasin	faible
+Bretagne	M	non	neutre	web	moyen
+Île-de-France	M	non	insatisfait	web	fort
+Bretagne	F	oui	satisfait	téléphone	fort
+Île-de-France	M	non	neutre	web	faible
+Bretagne	M	non	satisfait	magasin	fort
+Grand Est	M	non	très satisfait	web	fort
+Île-de-France	M	non	très satisfait	magasin	faible
+Bretagne	F	oui	très satisfait	magasin	fort
+Île-de-France	M	non	insatisfait	magasin	moyen
+Bretagne	F	oui	satisfait	web	moyen
+Île-de-France	M	non	très satisfait	web	fort
+Grand Est	M	oui	neutre	magasin	moyen
+Île-de-France	M	oui	insatisfait	web	moyen
+Grand Est	F	non	satisfait	web	faible
+Grand Est	M	oui	neutre	web	fort
+Occitanie	M	non	satisfait	téléphone	fort
+Bretagne	F	non	très satisfait	magasin	faible
+Bretagne	F	oui	satisfait	magasin	fort
+Grand Est	M	non	neutre	magasin	faible
+Île-de-France	M	non	neutre	web	moyen
+Occitanie	M	non	neutre	web	fort
+Île-de-France	M	non	insatisfait	web	faible
+Bretagne	F	non	satisfait	magasin	moyen
+Île-de-France	M	oui	satisfait	web	faible
+Occitanie	F	oui	neutre	magasin	fort
+Occitanie	M	oui	neutre	magasin	moyen
+Occitanie	F	non	très satisfait	web	moyen
+Occitanie	M	non	très insatisfait	web	fort
+Bretagne	F	non	satisfait	web	moyen
+Bretagne	M	non	neutre	téléphone	fort
+Occitanie	F	non	satisfait	téléphone	faible
+Occitanie	F	non	insatisfait	téléphone	faible
+Grand Est	M	non	satisfait	web	fort
+Île-de-France	F	non	neutre	web	fort
+Île-de-France	M	oui	satisfait	web	moyen
+Île-de-France	M	oui	très insatisfait	web	moyen
+Bretagne	M	non	neutre	web	faible
+Occitanie	F	non	satisfait	web	fort
+Bretagne	F	non	neutre	téléphone	fort
+Bretagne	F	oui	insatisfait	web	faible
+Île-de-France	M	non	insatisfait	web	moyen
+Grand Est	M	oui	neutre	magasin	moyen
+Bretagne	M	oui	insatisfait	web	moyen
+Île-de-France	M	oui	très satisfait	magasin	fort
+Occitanie	F	oui	neutre	magasin	faible
+Île-de-France	F	non	satisfait	magasin	faible
+Île-de-France	F	non	très satisfait	magasin	faible
+Île-de-France	F	non	insatisfait	web	fort
+Grand Est	F	non	satisfait	magasin	moyen
+Occitanie	F	non	très satisfait	web	fort
+Occitanie	F	non	satisfait	web	moyen
+Bretagne	F	oui	neutre	web	faible
+Occitanie	M	non	neutre	web	moyen
+Grand Est	M	non	très insatisfait	magasin	faible
+Bretagne	M	non	satisfait	web	fort
+Occitanie	F	non	très satisfait	web	fort
+Occitanie	F	oui	très satisfait	web	fort
+Corse	F	non	très insatisfait	magasin	moyen
+Bretagne	F	non	satisfait	web	faible
+Grand Est	M	oui	neutre	magasin	faible
+Île-de-France	M	non	très satisfait	magasin	moyen
+Grand Est	F	non	très insatisfait	web	moyen
+Bretagne	F	non	très satisfait	magasin	fort
+Île-de-France	F	non	satisfait	web	fort
+Occitanie	F	non	insatisfait	web	faible
+Bretagne	M	oui	insatisfait	magasin	faible
+Île-de-France	M	non	satisfait	téléphone	moyen
+Occitanie	M	non	insatisfait	web	moyen
+Grand Est	M	non	satisfait	web	faible
+Île-de-France	M	oui	très satisfait	web	fort
+Occitanie	M	non	satisfait	web	fort
+Occitanie	M	oui	neutre	magasin	moyen

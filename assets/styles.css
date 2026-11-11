@@ -1,0 +1,38 @@
+/* DATAINSIGHT — styles complémentaires, compatibles thèmes clair et sombre
+   (couleurs semi-transparentes, texte hérité du thème Streamlit). */
+
+.block-container { padding-top: 4rem; max-width: 1300px; }
+
+.di-header { margin-bottom: 0.6rem; }
+.di-header h1 { font-size: 1.9rem; font-weight: 750; margin: 0; padding: 0; }
+.di-header p { opacity: 0.72; margin: 0.25rem 0 0; font-size: 1rem; }
+
+.di-hero {
+  border-radius: 18px; padding: 2.2rem 2rem; margin-bottom: 1.4rem; color: #fff;
+  background: linear-gradient(135deg, #4F46E5 0%, #0EA5E9 100%);
+  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.25);
+}
+.di-hero h1 { color: #fff; font-size: 2.6rem; margin: 0; letter-spacing: 0.02em; }
+.di-hero .di-sub { font-size: 1.1rem; opacity: 0.95; margin-top: 0.2rem; font-weight: 600; }
+.di-hero p { color: rgba(255, 255, 255, 0.92); max-width: 820px; margin-top: 0.8rem; }
+
+.di-kpis { display: grid; grid-template-columns: repeat(var(--di-cols, 4), minmax(0, 1fr)); gap: 0.8rem; margin: 0.4rem 0 1rem; }
+@media (max-width: 900px) { .di-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.di-kpi {
+  border: 1px solid rgba(148, 163, 184, 0.35); border-radius: 14px; padding: 0.85rem 1rem;
+  background: rgba(99, 102, 241, 0.06); border-left: 4px solid #6366F1;
+}
+.di-kpi-label { font-size: 0.8rem; opacity: 0.72; text-transform: uppercase; letter-spacing: 0.04em; }
+.di-kpi-value { font-size: 1.55rem; font-weight: 750; line-height: 1.25; word-break: break-word; }
+.di-kpi-sub { font-size: 0.78rem; opacity: 0.65; }
+
+.di-feature {
+  border: 1px solid rgba(148, 163, 184, 0.35); border-radius: 14px; padding: 1rem 1.1rem; height: 100%;
+  background: rgba(14, 165, 233, 0.05);
+}
+.di-feature h4 { margin: 0 0 0.3rem; font-size: 1rem; }
+.di-feature p { margin: 0; opacity: 0.8; font-size: 0.9rem; }
+
+.di-formats code { margin-right: 0.25rem; }
+
+[data-testid="stSidebarNav"] span { font-size: 0.93rem; }

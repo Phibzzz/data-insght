@@ -1,0 +1,1001 @@
+id_commande,date_commande,produit,ville,latitude,longitude,quantite,prix_unitaire,montant_total,remise_appliquee,note_client,commentaire
+CMD-100000,2023-03-07,Souris,Paris,48.85753026340429,2.309035006745041,4,22.95,91.8,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100001,2024-07-18,Souris,Marseille,43.297779554227375,5.369056784301322,4,26.82,107.26,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100002,2024-04-22,Casque,Paris,48.84913114067301,2.3317947341576315,5,72.3,361.51,True,4,
+CMD-100003,2023-11-17,Clavier,Lyon,45.78612012583006,4.837726141103065,5,43.97,219.85,False,4,
+CMD-100004,2023-11-13,Clavier,Marseille,43.28992160259333,5.348245272839055,4,42.89,171.56,False,5,
+CMD-100005,2024-09-18,Souris,Paris,48.84817325450709,2.3606849627491036,2,25.33,50.66,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100006,2023-03-04,Écran,Lyon,45.7835718572733,4.8360865484733475,3,208.73,626.18,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100007,2024-05-24,Souris,Lyon,45.75323401809367,4.863707318337627,3,24.46,73.37,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100008,2023-05-28,Clavier,Lille,50.62844489931103,3.0574346906820327,4,44.15,176.6,False,4,
+CMD-100009,2023-03-10,Ordinateur,Lille,50.59757378436978,3.0419271439007707,5,847.12,4235.62,False,5,
+CMD-100010,2024-01-20,Ordinateur,Paris,48.87068380690246,2.347262282883454,2,934.93,1869.85,False,3,
+CMD-100011,2024-12-13,Souris,Toulouse,43.64351733878364,1.4173152720596653,3,25.48,76.43,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100012,2024-06-21,Ordinateur,Toulouse,43.619124507456,1.4523227450941087,1,893.62,893.62,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100013,2024-07-09,Écran,Lyon,45.79323598335095,4.847497004926305,4,212.42,849.7,False,1,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100014,2024-06-07,Écran,Marseille,43.27957795727645,5.419183920733856,3,234.02,702.06,False,5,
+CMD-100015,2024-07-27,Écran,Toulouse,43.60942648564057,1.4317632801879119,3,215.85,647.55,False,5,
+CMD-100016,2024-01-10,Écran,Lyon,45.745136801512615,4.830344108526496,3,214.6,643.81,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100017,2023-04-04,Souris,Paris,48.85204468908837,2.3406848295112357,2,25.21,50.42,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100018,2024-09-05,Ordinateur,Lyon,45.77944422954705,4.839942274022625,3,1022.15,3066.46,False,4,
+CMD-100019,2023-11-25,Souris,Lyon,45.76603641226207,4.843333810689592,4,22.32,89.28,False,4,
+CMD-100020,2024-01-01,Souris,Lyon,45.73574717954798,4.83463250311143,2,26.54,53.08,True,5,
+CMD-100021,2023-09-28,Clavier,Lyon,45.737699417889246,4.85742651833746,1,38.18,38.18,False,5,
+CMD-100022,2023-05-14,Écran,Paris,48.82897672137018,2.3398604099249045,2,223.82,447.65,False,3,
+CMD-100023,2024-11-07,Souris,Lille,50.639029051798786,3.0770234809578145,1,28.15,28.15,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100024,2024-07-24,Ordinateur,Paris,48.89787789071313,2.3629699570728215,2,935.18,1870.37,False,3,
+CMD-100025,2024-04-15,Clavier,Toulouse,43.631949164880005,1.443959401602021,4,45.61,182.46,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100026,2023-10-21,Casque,Toulouse,43.56678029601708,1.437901267184857,1,76.41,76.41,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100027,2024-08-23,Casque,Toulouse,43.6331215187614,1.4927333551746274,4,80.2,320.79,False,1,
+CMD-100028,2024-02-03,Souris,Lille,50.64792800834029,3.0409598269851585,2,24.5,48.99,True,2,
+CMD-100029,2023-11-20,Écran,Paris,48.825694001089424,2.3581586635393683,5,206.17,1030.83,False,3,
+CMD-100030,2023-11-25,Souris,Lyon,45.757935967665794,4.820695618595157,4,24.42,97.68,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100031,2023-06-15,Souris,Paris,48.87851044822992,2.387912414972426,2,25.4,50.79,False,5,
+CMD-100032,2023-03-09,Clavier,Marseille,43.307508670218695,5.387536526575984,3,42.24,126.71,False,2,
+CMD-100033,2024-02-09,Souris,Toulouse,43.578518098952244,1.430633002423177,1,23.39,23.39,True,5,
+CMD-100034,2024-10-10,Ordinateur,Lille,50.64141484311592,3.067551899868625,1,802.06,802.06,False,3,
+CMD-100035,2023-02-16,Écran,Lyon,45.72124998807839,4.840853914425531,5,226.88,1134.38,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100036,2024-09-18,Clavier,Lyon,45.75954355648486,4.825367504760505,5,46.96,234.82,False,1,
+CMD-100037,2024-08-27,Écran,Lille,50.651959135388,3.0724632843445634,1,224.08,224.08,True,5,
+CMD-100038,2023-07-22,Écran,Toulouse,43.605067884311424,1.4519861078220881,2,236.99,473.97,False,3,
+CMD-100039,2024-04-06,Souris,Toulouse,43.59472124900076,1.4485139742777189,1,25.18,25.18,False,4,
+CMD-100040,2023-05-01,Casque,Marseille,43.31428692507545,5.368961605775153,2,82.51,165.02,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100041,2024-07-07,Clavier,Marseille,43.315995036301736,5.378421089851993,2,46.09,92.19,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100042,2024-05-26,Souris,Lyon,45.790200793857345,4.840287753229849,2,24.82,49.63,True,2,
+CMD-100043,2023-09-16,Casque,Toulouse,43.62218684856893,1.4453818666605003,3,76.6,229.81,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100044,2023-02-19,Ordinateur,Lyon,45.78562749587874,4.822879681680249,1,1059.42,1059.42,False,5,
+CMD-100045,2024-12-09,Clavier,Lille,50.64385817114875,3.09117532481525,5,43.37,216.86,False,3,
+CMD-100046,2023-11-22,Clavier,Paris,48.86191057298233,2.3311916011330287,4,42.6,170.41,True,3,
+CMD-100047,2024-10-13,Ordinateur,Marseille,43.29829017999528,5.378352724377595,4,931.25,3724.99,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100048,2024-05-09,Souris,Lyon,45.759254805618056,4.829295185153971,1,25.5,25.5,False,3,
+CMD-100049,2024-07-22,Clavier,Toulouse,43.58045263413881,1.479390945388986,4,39.94,159.77,False,1,
+CMD-100050,2024-07-08,Clavier,Toulouse,43.5855937698236,1.426130349255523,5,49.04,245.21,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100051,2023-05-23,Écran,Lille,50.62355971036129,3.0425947347647937,1,218.34,218.34,True,1,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100052,2023-09-23,Écran,Toulouse,43.60952904319205,1.4248036387347633,4,200.45,801.79,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100053,2023-12-07,Casque,Lyon,45.79281625196009,4.8421693010190126,2,87.61,175.22,False,4,
+CMD-100054,2023-12-30,Ordinateur,Lyon,45.763164055442495,4.808238986808627,4,945.05,3780.19,False,4,
+CMD-100055,2023-02-01,Écran,Lille,50.64926952581755,3.047729430104845,3,197.74,593.23,True,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100056,2024-02-03,Écran,Marseille,43.318086313128646,5.326752683542914,5,251.28,1256.39,False,4,
+CMD-100057,2023-04-23,Clavier,Paris,48.851971064046225,2.3570084270825618,1,47.37,47.37,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100058,2024-06-26,Clavier,Lille,50.6410938042274,3.047295702824875,2,44.96,89.93,True,2,
+CMD-100059,2024-05-13,Clavier,Toulouse,43.599829439165504,1.4144388651213629,2,50.72,101.45,False,5,
+CMD-100060,2024-11-04,Ordinateur,Paris,48.88304271788157,2.373912188059481,2,911.47,1822.94,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100061,2024-06-27,Écran,Toulouse,43.61741686676532,1.4180466620323011,2,219.51,439.01,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100062,2023-09-25,Souris,Toulouse,43.580890324906235,1.4601388738005643,2,23.68,47.36,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100063,2024-12-07,Souris,Toulouse,43.60793049304308,1.4301791835202438,1,26.16,26.16,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100064,2023-10-27,Souris,Lille,50.66216224323647,3.0893314275579087,4,25.95,103.81,False,5,
+CMD-100065,2023-08-26,Souris,Marseille,43.292875379309066,5.384791010778523,3,25.03,75.09,True,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100066,2024-10-23,Souris,Marseille,43.3054543006019,5.3496390425825195,5,23.42,117.1,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100067,2023-09-28,Ordinateur,Toulouse,43.61561757675479,1.4258583489557939,4,909.35,3637.42,False,1,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100068,2023-02-25,Clavier,Paris,48.83586754201671,2.364310504104486,1,44.75,44.75,False,5,
+CMD-100069,2023-12-09,Clavier,Paris,48.86681415898427,2.3469524373857964,1,40.2,40.2,False,3,
+CMD-100070,2024-08-03,Écran,Lille,50.60132329695931,3.053913149859573,3,194.1,582.29,False,3,
+CMD-100071,2023-05-19,Souris,Lyon,45.75148751787197,4.861144777235442,3,26.13,78.39,False,4,
+CMD-100072,2023-12-04,Clavier,Marseille,43.31801445934988,5.3548262225326,2,35.63,71.27,True,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100073,2023-04-05,Souris,Lyon,45.77113512580617,4.837525875443509,4,25.41,101.64,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100074,2024-05-16,Souris,Lyon,45.75791044384507,4.854792555873046,3,24.04,72.13,True,1,
+CMD-100075,2023-12-14,Clavier,Marseille,43.305429220424905,5.385982349767712,4,49.71,198.84,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100076,2023-08-30,Casque,Lille,50.62799815504489,3.0541077466495867,1,76.84,76.84,True,3,
+CMD-100077,2023-06-15,Clavier,Marseille,43.296751570047036,5.364021882382946,5,47.37,236.87,False,4,
+CMD-100078,2024-02-17,Souris,Paris,48.869736370534405,2.3174236907495813,2,24.21,48.41,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100079,2024-05-03,Écran,Lyon,45.74945264518682,4.814575100146696,3,222.0,666.01,False,4,
+CMD-100080,2024-11-17,Clavier,Paris,48.857406728111094,2.3585671845314944,3,47.65,142.96,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100081,2023-11-16,Clavier,Lille,50.62295463610786,3.0545423562211553,5,43.33,216.67,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100082,2023-04-28,Ordinateur,Lyon,45.732287932508,4.837198541571325,2,971.75,1943.5,True,4,
+CMD-100083,2024-08-30,Clavier,Lyon,45.745590884875014,4.856485072192681,2,41.42,82.85,False,4,
+CMD-100084,2024-04-04,Casque,Paris,48.88796412894128,2.3284535378187545,2,81.89,163.77,False,5,
+CMD-100085,2024-05-26,Souris,Marseille,43.304194466291705,5.365076393955347,2,26.85,53.69,True,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100086,2023-03-12,Écran,Lille,50.602728233971966,3.0610742192682245,1,231.62,231.62,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100087,2023-08-17,Écran,Marseille,43.26569291248303,5.3557168012485095,1,253.73,253.73,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100088,2024-07-14,Écran,Toulouse,43.60245672199779,1.4728295422785482,2,206.56,413.13,True,5,
+CMD-100089,2024-08-30,Ordinateur,Paris,48.88782373066353,2.3703717360322627,3,800.7,2402.1,False,2,
+CMD-100090,2023-11-14,Casque,Paris,48.85286483730391,2.358002666541775,2,73.64,147.27,True,5,
+CMD-100091,2024-08-10,Clavier,Toulouse,43.63083999106808,1.4800846355865716,2,47.38,94.76,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100092,2024-09-06,Écran,Paris,48.86363861541637,2.322222094407797,4,228.76,915.05,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100093,2023-10-10,Clavier,Marseille,43.30592500915692,5.369645474377886,2,45.37,90.74,False,5,
+CMD-100094,2024-10-17,Ordinateur,Lyon,45.737285589813915,4.843026739378681,5,819.15,4095.74,False,4,
+CMD-100095,2023-07-30,Écran,Paris,48.875350458434994,2.3339088990641215,4,233.5,933.99,False,3,
+CMD-100096,2023-06-24,Souris,Marseille,43.28980135925453,5.375814290836354,1,22.55,22.55,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100097,2024-05-13,Souris,Lille,50.64646184907222,3.0351683501242426,2,27.32,54.64,False,4,
+CMD-100098,2024-04-09,Casque,Paris,48.840316600360275,2.366011146365485,1,98.29,98.29,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100099,2023-04-13,Souris,Lille,50.632740986950196,3.0784566953625783,2,25.73,51.47,False,4,
+CMD-100100,2024-08-30,Clavier,Marseille,43.303540059078756,5.375246668022566,2,47.1,94.2,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100101,2023-05-26,Souris,Toulouse,43.60161933366848,1.407144043698701,1,24.01,24.01,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100102,2024-08-10,Casque,Paris,48.86469090386172,2.332864129576679,1,68.41,68.41,False,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100103,2023-01-06,Souris,Lille,50.62387205849615,3.0685942000642634,3,23.79,71.38,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100104,2024-08-04,Casque,Paris,48.843618804939176,2.3526239728702474,4,73.01,292.02,False,5,
+CMD-100105,2024-07-28,Souris,Lille,50.66130966765588,3.0034199476461505,2,22.11,44.21,False,1,
+CMD-100106,2024-07-23,Souris,Toulouse,43.62567905732723,1.4690566076773648,5,28.44,142.22,False,4,
+CMD-100107,2024-04-30,Ordinateur,Lyon,45.74878270509904,4.838433130125077,2,919.65,1839.29,False,4,
+CMD-100108,2023-12-11,Souris,Paris,48.86796888611189,2.335818506719999,5,25.76,128.8,False,5,
+CMD-100109,2024-05-29,Clavier,Toulouse,43.58984642290598,1.4640991119513331,2,43.89,87.78,True,4,
+CMD-100110,2023-07-22,Clavier,Paris,48.832906307126756,2.338649199741862,3,44.38,133.13,False,5,
+CMD-100111,2024-07-23,Souris,Toulouse,43.62537618882798,1.4304309576479157,4,26.93,107.72,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100112,2024-02-10,Casque,Toulouse,43.570618007487056,1.4513670530202807,1,79.79,79.79,True,4,
+CMD-100113,2023-12-02,Casque,Lyon,45.782537118271534,4.871320769184846,5,83.4,416.98,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100114,2024-01-05,Écran,Lyon,45.75894555374854,4.868171743559458,2,216.55,433.1,True,5,
+CMD-100115,2024-02-20,Souris,Lyon,45.75976906793839,4.842894229978082,3,24.32,72.95,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100116,2023-01-28,Souris,Lyon,45.77219502439247,4.844947713177007,4,22.19,88.74,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100117,2023-04-13,Écran,Paris,48.86822397623988,2.3680299786416965,4,185.19,740.77,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100118,2023-06-29,Ordinateur,Lyon,45.74747313646343,4.810560326492613,1,881.17,881.17,True,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100119,2023-03-25,Ordinateur,Toulouse,43.619054512175005,1.4570829667430396,5,904.07,4520.34,False,5,
+CMD-100120,2023-11-17,Souris,Lyon,45.766267410760506,4.821018530637129,4,22.43,89.71,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100121,2024-05-02,Clavier,Toulouse,43.57957890414264,1.4505695613359315,5,44.88,224.38,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100122,2024-04-22,Casque,Lille,50.625802510328406,3.052750647447853,3,80.34,241.03,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100123,2023-12-10,Clavier,Toulouse,43.63232558031118,1.4542241665422841,4,37.24,148.95,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100124,2024-09-16,Casque,Marseille,43.330031895964915,5.372162069300129,3,74.14,222.43,False,2,
+CMD-100125,2024-02-17,Clavier,Lyon,45.778346969152174,4.774239394583574,5,46.47,232.33,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100126,2023-02-27,Souris,Lille,50.60539313023663,3.0608778342341036,5,25.77,128.87,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100127,2024-07-12,Ordinateur,Lyon,45.773812138049124,4.848543059045985,5,816.94,4084.68,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100128,2024-02-24,Clavier,Marseille,43.31351721807719,5.378718566966769,3,45.57,136.71,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100129,2024-04-08,Souris,Marseille,43.31101415966638,5.367748281075828,4,27.04,108.18,True,5,
+CMD-100130,2024-02-17,Casque,Toulouse,43.62039908577376,1.4770432338386081,2,84.97,169.95,False,2,
+CMD-100131,2024-02-09,Souris,Marseille,43.30376526158495,5.3760274625824325,3,24.81,74.43,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100132,2023-03-08,Ordinateur,Toulouse,43.60325175322339,1.452953466003862,4,866.31,3465.22,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100133,2024-02-13,Clavier,Lille,50.61703265008192,3.0781898378810113,1,42.73,42.73,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100134,2024-08-03,Ordinateur,Lyon,45.726041289629975,4.842951859993932,4,933.68,3734.73,False,4,
+CMD-100135,2023-08-10,Ordinateur,Lille,50.635992835334264,3.039339644931716,1,914.05,914.05,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100136,2024-03-16,Souris,Paris,48.86032105687305,2.3034332517244076,3,26.26,78.78,False,3,
+CMD-100137,2023-01-23,Souris,Lille,50.64035151685649,3.0477575819596385,3,25.26,75.79,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100138,2023-09-11,Souris,Paris,48.82984912613414,2.367418910517622,3,26.64,79.91,False,5,
+CMD-100139,2023-11-15,Souris,Lille,50.642100333786296,3.050238073371644,3,25.19,75.57,False,3,
+CMD-100140,2024-12-18,Souris,Lyon,45.80509090189242,4.851723567445634,3,26.57,79.71,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100141,2023-06-06,Souris,Lille,50.63076900261556,3.0602745635184054,3,26.74,80.22,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100142,2023-07-21,Ordinateur,Paris,48.85536669361587,2.3779613214052437,3,842.07,2526.22,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100143,2023-10-26,Écran,Marseille,43.30268004712172,5.363895665857586,3,188.18,564.53,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100144,2024-12-25,Souris,Lille,50.6698467404942,3.066652296531354,4,28.09,112.35,False,5,
+CMD-100145,2024-09-14,Souris,Paris,48.836127044766,2.362317701290707,3,25.51,76.54,True,4,
+CMD-100146,2023-01-26,Ordinateur,Lyon,45.76806413866788,4.865732037452624,4,776.56,3106.23,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100147,2023-06-20,Clavier,Paris,48.84060685155405,2.3180672538733145,5,42.43,212.15,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100148,2024-08-22,Souris,Lyon,45.7530599055831,4.826531834508937,5,26.54,132.72,True,4,
+CMD-100149,2023-02-12,Ordinateur,Lyon,45.76300819384237,4.8526703221077705,1,879.86,879.86,True,4,
+CMD-100150,2024-09-16,Clavier,Toulouse,43.63164646483227,1.475117929595573,4,43.16,172.63,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100151,2023-07-25,Souris,Lyon,45.80001981201378,4.840501430252842,2,27.8,55.6,False,4,
+CMD-100152,2024-10-31,Souris,Paris,48.86556284289254,2.34634591671157,1,22.91,22.91,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100153,2023-08-03,Écran,Paris,48.84906810553953,2.367342367373489,4,205.95,823.81,False,1,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100154,2023-11-14,Souris,Lille,50.679054777332766,3.074674053504634,1,25.42,25.42,False,3,
+CMD-100155,2024-04-28,Écran,Lille,50.620648910373404,3.050106766426654,5,226.87,1134.36,False,5,
+CMD-100156,2023-04-03,Souris,Lyon,45.75257728171281,4.842306146243551,4,25.99,103.97,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100157,2024-02-11,Écran,Paris,48.82110113910843,2.3758105452482394,5,236.04,1180.19,False,5,
+CMD-100158,2024-01-04,Clavier,Paris,48.884521831384895,2.3900091798654888,4,45.71,182.86,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100159,2024-07-26,Clavier,Lille,50.64856491184742,3.0721520991847058,5,46.76,233.81,False,5,
+CMD-100160,2024-12-28,Écran,Toulouse,43.65305611072233,1.4450827779333117,1,215.44,215.44,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100161,2024-04-29,Souris,Toulouse,43.57690953295564,1.4431184964792418,5,25.13,125.63,True,2,
+CMD-100162,2023-10-26,Écran,Lyon,45.79316341614958,4.846847931143873,1,221.89,221.89,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100163,2023-10-24,Ordinateur,Toulouse,43.606102710367324,1.4418865431504109,2,915.49,1830.97,False,1,
+CMD-100164,2023-11-02,Écran,Paris,48.872722004336005,2.3559928099804477,1,233.6,233.6,False,4,
+CMD-100165,2024-08-17,Souris,Toulouse,43.571744457177914,1.4230424747093824,3,26.11,78.33,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100166,2023-08-23,Souris,Marseille,43.32586163645331,5.395741143929823,4,25.09,100.35,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100167,2023-05-02,Casque,Lyon,45.77973033502664,4.812896305457026,2,74.82,149.64,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100168,2023-09-02,Écran,Toulouse,43.603921799304274,1.4355577647909397,5,221.19,1105.96,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100169,2023-01-17,Clavier,Toulouse,43.617602253753226,1.4461518652170362,4,44.9,179.6,False,2,
+CMD-100170,2023-03-19,Ordinateur,Marseille,43.281190093979156,5.409619737597772,4,913.91,3655.64,False,1,
+CMD-100171,2023-03-07,Clavier,Paris,48.84501119828837,2.3437463403029533,5,52.94,264.72,False,2,
+CMD-100172,2024-07-17,Casque,Paris,48.84733110772749,2.338879683720792,3,76.65,229.94,True,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100173,2024-06-11,Souris,Lille,50.59214544276619,3.0462836616533244,2,25.84,51.69,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100174,2024-05-23,Clavier,Lyon,45.78123516988407,4.868877943352226,5,48.85,244.23,False,4,
+CMD-100175,2023-12-04,Clavier,Lyon,45.787831872283654,4.77945306012988,3,45.35,136.06,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100176,2024-06-07,Casque,Toulouse,43.59067311700473,1.4241452397570282,4,94.96,379.85,False,4,
+CMD-100177,2023-04-28,Clavier,Lyon,45.770964060318896,4.890325774183191,2,43.64,87.28,True,1,
+CMD-100178,2024-10-19,Ordinateur,Lyon,45.75868919050742,4.847517641469833,2,923.33,1846.67,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100179,2024-01-01,Clavier,Toulouse,43.611265479241624,1.4220803010132155,1,42.12,42.12,False,5,
+CMD-100180,2024-11-15,Ordinateur,Marseille,43.28394845517578,5.368961640356504,2,874.69,1749.38,False,5,
+CMD-100181,2023-04-22,Écran,Toulouse,43.58703149687825,1.4455490913213571,1,224.38,224.38,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100182,2023-12-30,Ordinateur,Paris,48.877641497720475,2.369122504918112,4,960.93,3843.74,False,2,
+CMD-100183,2024-05-23,Clavier,Marseille,43.29522258829751,5.406590040056451,1,46.15,46.15,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100184,2023-12-28,Souris,Marseille,43.33694217901707,5.377571033625584,4,27.52,110.07,False,5,
+CMD-100185,2023-11-22,Écran,Toulouse,43.605626199295884,1.4334042339397408,5,218.33,1091.64,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100186,2023-05-02,Clavier,Paris,48.83807843919299,2.367941688841964,4,43.8,175.22,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100187,2023-10-06,Casque,Paris,48.88113881752872,2.3382349460627427,3,97.31,291.92,True,1,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100188,2023-06-24,Souris,Toulouse,43.61731600328292,1.4235332500802194,1,25.79,25.79,False,4,
+CMD-100189,2023-08-09,Clavier,Toulouse,43.61923745727393,1.409001822560871,5,42.41,212.05,False,5,
+CMD-100190,2024-05-14,Écran,Lille,50.65301201357735,3.025997432109992,1,207.78,207.78,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100191,2024-04-05,Souris,Lyon,45.75094407412309,4.8177710968775145,4,23.11,92.46,False,3,
+CMD-100192,2024-03-19,Écran,Lille,50.62665493382029,3.033744204645983,4,236.48,945.93,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100193,2023-09-22,Écran,Lyon,45.760571003370245,4.841964730547494,1,213.59,213.59,False,5,
+CMD-100194,2024-12-01,Casque,Toulouse,43.57888506926169,1.4202119634835193,4,80.82,323.26,False,4,
+CMD-100195,2023-03-05,Clavier,Paris,48.85132819699684,2.289326673959505,1,44.77,44.77,False,5,
+CMD-100196,2023-09-08,Souris,Lille,50.655927589157535,3.0364217645082108,2,26.46,52.93,False,4,
+CMD-100197,2023-03-28,Clavier,Lyon,45.76874676207588,4.8262628070455715,5,41.95,209.76,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100198,2023-09-05,Souris,Lille,50.602278773443096,3.045191010242561,5,22.85,114.24,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100199,2024-12-03,Écran,Lyon,45.732883211766705,4.866090493586184,2,223.95,447.9,True,4,
+CMD-100200,2023-09-25,Écran,Toulouse,43.637995521174965,1.431929148814217,5,230.58,1152.88,False,5,
+CMD-100201,2024-10-25,Écran,Marseille,43.2946936197949,5.3874184692639835,5,225.85,1129.26,True,4,
+CMD-100202,2023-12-28,Écran,Paris,48.84365179588597,2.3518203480063824,4,205.75,823.01,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100203,2024-05-25,Souris,Paris,48.85112016470206,2.351353905486548,1,26.35,26.35,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100204,2023-11-30,Écran,Toulouse,43.57515384491366,1.427492394223039,2,206.91,413.82,False,4,
+CMD-100205,2023-07-14,Clavier,Paris,48.88506190299023,2.3510243469683845,4,43.12,172.49,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100206,2024-07-11,Souris,Lyon,45.75613894124828,4.820398077462052,5,23.11,115.56,True,5,
+CMD-100207,2024-12-08,Souris,Marseille,43.32384803055477,5.373200486285091,5,27.6,138.01,False,4,
+CMD-100208,2023-07-12,Clavier,Lyon,45.76503303428895,4.830975007347527,3,47.28,141.84,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100209,2024-07-22,Clavier,Paris,48.88519063949137,2.3333074413361676,2,47.18,94.36,False,4,
+CMD-100210,2023-07-10,Casque,Toulouse,43.60983388998086,1.4640378867940118,5,87.98,439.91,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100211,2024-06-07,Souris,Toulouse,43.62176465325738,1.4527368096004285,2,30.63,61.25,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100212,2024-07-29,Souris,Toulouse,43.61908186092177,1.435238745317155,2,21.58,43.16,False,4,
+CMD-100213,2023-11-25,Casque,Lille,50.641665821325034,3.0602098609407062,5,75.27,376.37,False,4,
+CMD-100214,2024-06-21,Souris,Paris,48.86355868954365,2.3505235495699606,3,23.77,71.3,False,5,
+CMD-100215,2023-07-18,Écran,Marseille,43.29184298567769,5.352448181254735,2,205.03,410.05,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100216,2023-02-27,Clavier,Lyon,45.80230869383146,4.837109924580424,1,41.12,41.12,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100217,2023-03-12,Ordinateur,Lille,50.61106126029808,3.0448797649038526,3,878.42,2635.27,False,4,
+CMD-100218,2023-11-23,Souris,Marseille,43.296586152846864,5.350901323287598,5,22.57,112.83,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100219,2024-10-20,Casque,Paris,48.856897717504154,2.3197446533946695,3,82.14,246.43,True,5,
+CMD-100220,2023-04-04,Clavier,Toulouse,43.61274881506687,1.4370278529292273,4,45.19,180.74,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100221,2023-11-29,Clavier,Paris,48.84801054708211,2.3635394131916745,2,46.73,93.46,False,4,
+CMD-100222,2024-05-28,Ordinateur,Lyon,45.770294926111795,4.821806812932423,4,936.56,3746.23,False,4,
+CMD-100223,2023-05-28,Casque,Toulouse,43.60132314829594,1.4946141738431593,4,83.86,335.44,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100224,2024-06-10,Ordinateur,Marseille,43.26486094965124,5.387513713073054,4,873.11,3492.46,False,3,
+CMD-100225,2023-08-12,Ordinateur,Toulouse,43.60489104572514,1.4702866026532095,4,1052.72,4210.89,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100226,2024-08-13,Écran,Marseille,43.2744886933394,5.385704860241475,3,224.13,672.38,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100227,2024-02-27,Ordinateur,Lille,50.59451228475102,3.0943572994987716,2,765.9,1531.8,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100228,2024-02-04,Clavier,Marseille,43.29923746641379,5.354059960330549,4,41.39,165.57,False,4,
+CMD-100229,2023-05-10,Clavier,Paris,48.86635766684039,2.3009852522868273,5,38.73,193.67,False,4,
+CMD-100230,2023-12-05,Écran,Paris,48.86713396084209,2.343277487832942,5,220.31,1101.53,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100231,2024-09-17,Ordinateur,Toulouse,43.61604341414039,1.4553643715109508,2,891.23,1782.46,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100232,2023-01-15,Ordinateur,Paris,48.81794821958119,2.3552303394349594,4,866.27,3465.09,False,5,
+CMD-100233,2024-07-07,Clavier,Lyon,45.73677966144185,4.841209452219355,1,52.24,52.24,False,4,
+CMD-100234,2023-12-26,Ordinateur,Paris,48.89607042873627,2.3786182000533973,3,939.53,2818.58,False,5,
+CMD-100235,2024-06-09,Souris,Lyon,45.74305582479846,4.84334115148925,3,26.45,79.36,True,4,
+CMD-100236,2024-04-29,Écran,Marseille,43.308716820622735,5.38577825855182,2,203.61,407.23,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100237,2023-11-12,Écran,Paris,48.84286124756668,2.3334087451629446,5,202.42,1012.08,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100238,2023-08-14,Clavier,Marseille,43.29809345478535,5.347892126215679,5,45.13,225.66,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100239,2024-04-02,Clavier,Lille,50.616534915954524,3.08958227846049,1,45.62,45.62,False,3,
+CMD-100240,2023-04-13,Ordinateur,Paris,48.86783082309239,2.354218030702941,2,766.35,1532.69,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100241,2024-03-02,Ordinateur,Paris,48.85933548234633,2.3397354163310773,2,887.02,1774.04,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100242,2023-03-11,Souris,Lyon,45.75503420452712,4.823272110129058,5,25.03,125.14,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100243,2024-04-19,Ordinateur,Lille,50.608196557606384,3.044317537567235,3,884.51,2653.53,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100244,2024-04-03,Clavier,Marseille,43.30185548394985,5.355620819579083,4,42.07,168.29,True,3,
+CMD-100245,2023-03-03,Clavier,Toulouse,43.58044562401915,1.4185370439479268,5,43.06,215.29,False,2,
+CMD-100246,2024-07-06,Écran,Paris,48.865149620842416,2.3221915919555896,4,216.89,867.55,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100247,2023-10-31,Clavier,Toulouse,43.65722969818074,1.4402999124469116,1,45.33,45.33,False,4,
+CMD-100248,2024-07-28,Souris,Paris,48.88360340102524,2.3403414825935918,1,26.21,26.21,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100249,2023-01-31,Souris,Toulouse,43.619066957737886,1.4663431857088658,2,27.16,54.32,False,4,
+CMD-100250,2023-05-12,Écran,Paris,48.854887854045174,2.3580615330653383,2,214.82,429.64,True,1,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100251,2023-12-27,Écran,Lille,50.59042494745993,3.0626063536015597,4,211.97,847.89,False,4,
+CMD-100252,2023-05-18,Écran,Lyon,45.737554272082,4.820837591848911,1,227.7,227.7,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100253,2023-08-29,Clavier,Paris,48.882255857122054,2.3497794316844005,2,47.2,94.4,False,1,
+CMD-100254,2024-04-27,Souris,Lyon,45.74820487839751,4.8429200220726285,2,24.13,48.26,True,5,
+CMD-100255,2023-04-16,Écran,Paris,48.84261495803672,2.366523914794253,1,233.91,233.91,False,4,
+CMD-100256,2024-05-09,Écran,Paris,48.85328699048632,2.3503221634696327,1,237.24,237.24,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100257,2023-03-17,Casque,Marseille,43.27525907482307,5.391382475586484,1,88.27,88.27,False,4,
+CMD-100258,2023-05-08,Ordinateur,Lyon,45.73946462530897,4.835859786178159,3,1028.04,3084.12,False,4,
+CMD-100259,2024-03-04,Clavier,Lyon,45.76299051854438,4.851556942370354,3,41.88,125.64,False,3,
+CMD-100260,2024-08-02,Souris,Lille,50.611369410906555,3.047502955828217,3,25.03,75.08,False,5,
+CMD-100261,2023-05-05,Écran,Paris,48.841779628404424,2.315948232668627,3,220.2,660.6,False,4,
+CMD-100262,2023-08-07,Ordinateur,Lyon,45.74837617947706,4.841067179760371,4,892.94,3571.75,True,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100263,2024-11-06,Ordinateur,Paris,48.86704720427669,2.3667064812629324,5,853.25,4266.27,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100264,2024-12-23,Casque,Marseille,43.291857486190096,5.381306946636151,3,70.49,211.48,False,4,
+CMD-100265,2024-02-29,Ordinateur,Lyon,45.760428560642126,4.844143733228749,4,906.67,3626.69,False,5,
+CMD-100266,2023-11-23,Écran,Paris,48.868538917946175,2.3452282606809,4,206.48,825.91,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100267,2023-09-11,Ordinateur,Paris,48.85375920783534,2.336065074971088,4,906.19,3624.77,False,5,
+CMD-100268,2024-03-23,Ordinateur,Lille,50.623634924630856,3.0683345653808756,1,842.83,842.83,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100269,2024-03-07,Souris,Paris,48.8660090071114,2.3607289483239655,5,22.8,114.0,False,5,
+CMD-100270,2023-08-04,Écran,Toulouse,43.618063956871154,1.4329820181831234,1,224.12,224.12,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100271,2023-01-17,Clavier,Lille,50.62625853000983,3.0794884837838414,3,45.54,136.63,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100272,2023-04-21,Clavier,Marseille,43.29811215551241,5.352142689709048,4,47.09,188.34,False,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100273,2024-11-30,Souris,Lyon,45.74836419540534,4.824029532424179,3,29.37,88.12,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100274,2023-11-02,Ordinateur,Toulouse,43.58748633913671,1.4769285042468332,2,919.96,1839.93,True,4,
+CMD-100275,2023-12-19,Souris,Lille,50.644582950039336,3.0746716387546784,5,25.97,129.85,True,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100276,2023-12-07,Souris,Paris,48.86549884125089,2.3450398138821793,1,22.84,22.84,False,5,
+CMD-100277,2024-07-25,Écran,Lille,50.63830596876833,3.0630476141928713,2,197.35,394.7,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100278,2023-02-17,Souris,Lille,50.63481708697451,3.060395844890477,5,28.17,140.83,False,4,
+CMD-100279,2023-03-02,Souris,Paris,48.8575240655163,2.2972877227004522,4,23.15,92.61,True,5,
+CMD-100280,2023-07-21,Écran,Paris,48.87052823781646,2.334070521010532,1,201.63,201.63,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100281,2023-12-22,Casque,Toulouse,43.623402175220455,1.4431830676578143,4,79.75,319.0,True,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100282,2024-05-04,Clavier,Paris,48.87482456010381,2.345067770468814,5,44.68,223.38,False,3,
+CMD-100283,2023-12-25,Souris,Toulouse,43.602684441681085,1.4491420512966084,1,23.19,23.19,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100284,2023-11-19,Casque,Paris,48.884339854598174,2.374789646258958,3,78.05,234.14,False,3,
+CMD-100285,2024-11-15,Clavier,Toulouse,43.60926921363465,1.4377692843069214,3,49.43,148.28,False,3,
+CMD-100286,2023-04-28,Souris,Lyon,45.77664752385132,4.814546904077543,1,23.39,23.39,False,2,
+CMD-100287,2024-02-22,Écran,Paris,48.8622417578167,2.3586970331702206,2,195.47,390.94,False,3,
+CMD-100288,2024-01-31,Souris,Paris,48.861540134149685,2.3456675333286436,1,26.89,26.89,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100289,2023-12-12,Souris,Paris,48.841884960194996,2.3490787299835616,1,25.98,25.98,False,2,
+CMD-100290,2024-08-12,Écran,Marseille,43.3105270167669,5.363964525616938,3,209.08,627.24,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100291,2023-07-14,Clavier,Paris,48.913505887898154,2.3970367560002197,3,39.3,117.91,False,4,
+CMD-100292,2024-11-27,Écran,Lille,50.621704098504196,3.0124859147800414,2,206.89,413.79,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100293,2023-08-31,Ordinateur,Toulouse,43.6061198943085,1.436433321937347,2,896.06,1792.12,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100294,2024-02-02,Ordinateur,Lyon,45.75507589471306,4.8356262194870325,1,983.93,983.93,False,1,
+CMD-100295,2024-01-16,Écran,Lille,50.61943960196876,3.0416771501543445,4,201.76,807.02,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100296,2024-09-12,Ordinateur,Toulouse,43.63558898956237,1.4621965166425657,2,893.91,1787.83,True,4,
+CMD-100297,2023-11-17,Écran,Toulouse,43.59124057964545,1.4604651535743927,5,231.88,1159.41,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100298,2023-07-27,Souris,Paris,48.84711839053267,2.351244907630229,3,20.24,60.71,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100299,2023-01-16,Souris,Toulouse,43.572950143525375,1.438786524893126,5,27.07,135.34,True,4,
+CMD-100300,2023-09-23,Souris,Marseille,43.28134776550916,5.367560863315367,4,22.64,90.54,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100301,2024-08-26,Écran,Lille,50.59503200214093,3.055204266927044,2,225.84,451.69,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100302,2023-01-08,Souris,Marseille,43.30913609398424,5.368232539437485,4,25.49,101.97,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100303,2024-10-16,Clavier,Toulouse,43.660693944436744,1.440440017969664,2,48.9,97.81,False,1,
+CMD-100304,2024-02-01,Ordinateur,Lyon,45.75666642412699,4.840748986291848,1,939.67,939.67,True,3,
+CMD-100305,2023-04-13,Ordinateur,Paris,48.8232648413402,2.367264241296557,2,728.84,1457.67,False,4,
+CMD-100306,2023-08-09,Souris,Paris,48.8745999932886,2.3275947970480284,2,23.43,46.86,False,2,
+CMD-100307,2024-02-09,Écran,Lille,50.61466150082139,3.0362867220153373,1,222.43,222.43,False,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100308,2023-08-19,Clavier,Toulouse,43.63068693861107,1.4092296394103294,1,44.3,44.3,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100309,2023-03-21,Casque,Lyon,45.758359419044204,4.853027948007152,5,83.06,415.28,False,4,
+CMD-100310,2024-05-01,Ordinateur,Toulouse,43.592063686218346,1.4492064658638093,3,956.83,2870.5,False,5,
+CMD-100311,2024-05-05,Ordinateur,Paris,48.85304084888509,2.362305350318655,3,943.81,2831.43,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100312,2023-03-28,Casque,Paris,48.871755535218725,2.3236100352327305,5,78.63,393.14,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100313,2023-07-25,Clavier,Marseille,43.29195158738489,5.405498962457602,2,38.35,76.71,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100314,2023-06-28,Ordinateur,Toulouse,43.594765505944125,1.4320229818370929,3,867.21,2601.62,True,3,
+CMD-100315,2024-04-26,Souris,Lille,50.62522336794042,3.060664116142225,5,25.83,129.16,False,4,
+CMD-100316,2024-06-17,Souris,Toulouse,43.579262896309984,1.4612876932135674,4,22.82,91.28,True,4,
+CMD-100317,2024-06-14,Clavier,Lyon,45.77194063204588,4.815960404884079,2,47.27,94.55,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100318,2024-11-16,Souris,Lille,50.5934654681231,3.0463735128297467,2,26.82,53.63,False,3,
+CMD-100319,2024-07-15,Écran,Marseille,43.287617570912694,5.373383435492017,1,222.23,222.23,False,2,
+CMD-100320,2023-08-23,Ordinateur,Lille,50.644387704176616,3.1144494615092944,1,679.41,679.41,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100321,2023-03-20,Clavier,Paris,48.862660965658655,2.3582224948570403,1,40.4,40.4,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100322,2024-03-24,Écran,Paris,48.86840641145973,2.384327223012614,4,253.2,1012.79,False,2,
+CMD-100323,2024-10-30,Souris,Paris,48.85529908654562,2.376313462903839,4,23.91,95.63,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100324,2024-12-12,Souris,Lille,50.65259492361971,3.0646602007298904,3,21.03,63.1,False,1,
+CMD-100325,2023-06-18,Ordinateur,Paris,48.87509398393539,2.3324160845673862,4,988.94,3955.75,False,4,
+CMD-100326,2023-06-22,Clavier,Lille,50.63812282008495,3.0784950722163646,1,45.05,45.05,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100327,2023-01-28,Écran,Toulouse,43.62325091554627,1.414237793167039,2,239.45,478.89,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100328,2023-04-14,Souris,Paris,48.871608471088074,2.3842175024735415,2,25.55,51.11,True,4,
+CMD-100329,2024-02-10,Écran,Lille,50.62041072973306,3.0613001061643654,5,228.07,1140.35,True,4,
+CMD-100330,2024-02-04,Souris,Paris,48.82972202176617,2.2991955290540362,4,25.73,102.9,False,3,
+CMD-100331,2023-09-28,Clavier,Paris,48.86500724251685,2.345389878099363,5,47.51,237.55,False,4,
+CMD-100332,2023-08-15,Clavier,Marseille,43.30742178461663,5.382878956418459,2,53.2,106.4,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100333,2024-08-28,Souris,Lyon,45.78580943982278,4.830959522539205,5,26.94,134.71,False,5,
+CMD-100334,2023-12-02,Souris,Lyon,45.745273574499095,4.850000116219872,1,21.84,21.84,False,5,
+CMD-100335,2024-08-13,Clavier,Paris,48.838471378814454,2.335199516645754,2,46.61,93.22,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100336,2024-12-04,Souris,Toulouse,43.613898005326156,1.4180803525442478,3,27.28,81.85,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100337,2023-08-20,Casque,Paris,48.85517666022294,2.350771091939048,1,87.7,87.7,False,5,
+CMD-100338,2023-05-28,Clavier,Lyon,45.72628476778858,4.836331313345799,5,43.46,217.32,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100339,2024-11-26,Clavier,Marseille,43.304002163275086,5.362832312978753,5,49.19,245.97,False,4,
+CMD-100340,2024-04-08,Ordinateur,Marseille,43.25945154170022,5.394345822932843,3,966.8,2900.39,False,5,
+CMD-100341,2023-08-01,Souris,Toulouse,43.58579486896253,1.4271958524972188,2,30.15,60.29,False,5,
+CMD-100342,2024-03-29,Clavier,Lyon,45.7910336274572,4.841963312146647,1,42.3,42.3,False,5,
+CMD-100343,2024-01-11,Clavier,Toulouse,43.64119758035614,1.4455593994232725,4,43.17,172.69,False,3,
+CMD-100344,2024-10-23,Ordinateur,Toulouse,43.58038687263056,1.4130656809572784,3,877.96,2633.88,False,4,
+CMD-100345,2023-07-06,Souris,Lyon,45.75741216925175,4.80931939632663,4,24.02,96.08,False,3,
+CMD-100346,2024-12-24,Clavier,Lyon,45.764852450461575,4.835938220324973,4,41.8,167.18,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100347,2024-11-14,Souris,Marseille,43.33212453855163,5.409423999973739,1,19.47,19.47,False,5,
+CMD-100348,2023-05-12,Ordinateur,Marseille,43.28664262104351,5.381385396237976,1,868.7,868.7,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100349,2023-05-01,Casque,Paris,48.84706231953933,2.3176873034971073,4,82.36,329.46,False,4,
+CMD-100350,2024-01-25,Écran,Marseille,43.32747451116926,5.307590238697613,1,211.32,211.32,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100351,2023-02-02,Écran,Paris,48.84910421694563,2.3668610718600873,5,254.06,1270.31,False,3,
+CMD-100352,2023-08-07,Souris,Marseille,43.31094403417933,5.367875730341436,1,25.03,25.03,True,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100353,2023-11-14,Casque,Lille,50.59965714069775,3.0801253193902074,4,88.26,353.05,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100354,2024-12-08,Écran,Marseille,43.293075345118154,5.352185641585771,5,224.6,1123.0,False,5,
+CMD-100355,2024-12-25,Clavier,Toulouse,43.57150806323347,1.4512042499571705,3,47.98,143.93,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100356,2023-04-21,Souris,Lyon,45.74289132438089,4.852623469260557,1,25.56,25.56,True,5,
+CMD-100357,2024-10-12,Souris,Lille,50.64598402710304,3.0483507272358703,5,27.74,138.69,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100358,2023-03-08,Clavier,Lille,50.62820189217826,3.0487782885953787,1,45.2,45.2,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100359,2024-06-30,Clavier,Lille,50.62281788518894,3.057805256621968,3,46.79,140.36,False,4,
+CMD-100360,2024-09-09,Souris,Toulouse,43.589725007520386,1.4550535269312066,5,25.73,128.66,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100361,2024-10-12,Souris,Toulouse,43.60028687853517,1.4439133199097618,4,24.42,97.69,False,4,
+CMD-100362,2023-06-13,Souris,Marseille,43.30252226334201,5.389279926755189,1,25.81,25.81,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100363,2024-10-14,Clavier,Lille,50.648858324129236,3.0480612962146596,5,53.04,265.22,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100364,2023-03-26,Ordinateur,Lille,50.57669706631806,3.030732095890738,1,880.53,880.53,False,4,
+CMD-100365,2024-01-14,Casque,Marseille,43.27986477651474,5.409339507362263,4,82.68,330.74,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100366,2023-12-09,Souris,Paris,48.85978192484378,2.340107325269151,4,27.52,110.06,False,3,
+CMD-100367,2023-08-19,Souris,Paris,48.85462273768076,2.3408311583256447,2,27.28,54.56,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100368,2023-01-17,Ordinateur,Lyon,45.772067524850534,4.834383933578557,3,900.84,2702.53,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100369,2024-07-17,Écran,Paris,48.86195080572253,2.3535436221930794,1,178.05,178.05,True,4,
+CMD-100370,2023-09-02,Souris,Lyon,45.757902642740135,4.827966327150235,5,26.03,130.17,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100371,2024-04-28,Ordinateur,Paris,48.84606293608026,2.3518513220610195,2,740.2,1480.4,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100372,2023-10-27,Casque,Lille,50.62428997020529,3.056504755371437,2,89.41,178.82,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100373,2023-09-30,Clavier,Paris,48.879574846996455,2.355696386540416,3,45.61,136.83,True,5,
+CMD-100374,2024-10-08,Souris,Toulouse,43.59005984134188,1.3970502508202536,4,27.0,108.0,False,5,
+CMD-100375,2023-03-10,Souris,Lyon,45.762743865537125,4.873317526140157,3,23.2,69.59,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100376,2024-06-21,Clavier,Paris,48.86026684427997,2.3492542337293085,3,39.41,118.23,False,5,
+CMD-100377,2024-06-29,Écran,Toulouse,43.63590701859749,1.4558124523889395,3,224.59,673.77,False,4,
+CMD-100378,2023-10-05,Souris,Lille,50.62319383483527,3.0297379731693197,5,24.93,124.66,False,5,
+CMD-100379,2023-07-11,Clavier,Toulouse,43.62387613312022,1.4347799947750148,2,43.23,86.46,False,2,
+CMD-100380,2023-01-04,Clavier,Lille,50.653839588065296,3.043853682673592,5,45.3,226.52,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100381,2024-11-14,Souris,Marseille,43.29522491470019,5.39919447529017,4,30.53,122.14,False,5,
+CMD-100382,2024-11-22,Casque,Toulouse,43.60048562041847,1.4324837278632823,5,85.34,426.7,False,4,
+CMD-100383,2023-06-25,Clavier,Paris,48.85001892655904,2.3673615997388016,5,48.78,243.89,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100384,2023-01-24,Écran,Lille,50.624083537315144,3.044291590946536,4,234.85,939.41,True,4,
+CMD-100385,2023-03-31,Clavier,Toulouse,43.62178479721154,1.435147621206921,2,50.33,100.65,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100386,2023-02-19,Clavier,Lyon,45.76862019954511,4.830788996695986,4,44.32,177.26,False,5,
+CMD-100387,2024-08-29,Ordinateur,Lyon,45.7687057941834,4.861376902536586,4,752.06,3008.23,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100388,2024-10-13,Écran,Toulouse,43.58219552979241,1.4064029468193975,2,216.68,433.36,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100389,2023-04-22,Souris,Paris,48.837250198452494,2.325886728894511,4,26.62,106.49,False,4,
+CMD-100390,2024-06-29,Écran,Lille,50.672068936495535,3.018353896686204,2,202.93,405.86,False,4,
+CMD-100391,2023-05-11,Casque,Lyon,45.76044348549423,4.8139499576047715,3,78.87,236.61,False,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100392,2023-09-26,Écran,Paris,48.84110456008843,2.335967998976158,4,207.82,831.3,True,4,
+CMD-100393,2024-03-13,Ordinateur,Lyon,45.79262198331179,4.803410374918192,1,1008.15,1008.15,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100394,2024-06-09,Souris,Lille,50.63483617097367,3.042617045067707,2,26.5,53.0,False,3,
+CMD-100395,2024-09-30,Souris,Lyon,45.775563098337294,4.795405710381332,4,26.3,105.21,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100396,2023-02-02,Écran,Marseille,43.293739058494374,5.3494402255246465,3,230.94,692.82,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100397,2023-05-24,Écran,Lille,50.62282653818846,3.081308407998204,5,219.34,1096.72,False,5,
+CMD-100398,2023-07-24,Écran,Paris,48.853208272550056,2.360271761405622,1,223.48,223.48,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100399,2023-08-15,Clavier,Toulouse,43.57704523659403,1.4479493534434504,4,40.73,162.93,False,3,
+CMD-100400,2024-12-29,Clavier,Lyon,45.762241451811605,4.815644428874418,5,37.13,185.64,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100401,2024-07-21,Écran,Toulouse,43.61062066154086,1.4134783008191054,5,222.64,1113.21,False,4,
+CMD-100402,2023-08-22,Ordinateur,Paris,48.893609264676876,2.3294168784893143,1,923.33,923.33,True,1,
+CMD-100403,2024-12-10,Clavier,Paris,48.858319981300106,2.3513358034620797,5,49.35,246.77,False,5,
+CMD-100404,2023-12-31,Casque,Toulouse,43.558016459155795,1.4615635355945333,2,90.06,180.11,False,3,
+CMD-100405,2024-01-01,Souris,Lille,50.627320291344304,3.0753473483427065,2,28.14,56.28,True,5,
+CMD-100406,2023-11-13,Clavier,Lille,50.68399008266216,3.069912247249667,2,41.41,82.81,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100407,2023-04-16,Ordinateur,Toulouse,43.6220273246997,1.429448862718641,4,874.64,3498.55,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100408,2024-11-13,Écran,Marseille,43.28028222112383,5.370290996648079,4,228.45,913.82,False,5,
+CMD-100409,2023-01-11,Écran,Paris,48.868422130288614,2.345773149399255,3,264.56,793.68,False,3,
+CMD-100410,2023-05-08,Souris,Lyon,45.74915973150221,4.831676204730105,1,27.96,27.96,False,5,
+CMD-100411,2023-06-17,Souris,Toulouse,43.57762384960906,1.4849425579391962,5,27.24,136.19,False,3,
+CMD-100412,2023-07-23,Casque,Lyon,45.75703261273532,4.800459995259928,2,77.52,155.04,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100413,2023-04-07,Casque,Marseille,43.29833052878478,5.365106463681554,1,74.35,74.35,True,4,
+CMD-100414,2023-01-14,Casque,Paris,48.81915688995133,2.376434978143923,3,85.05,255.15,False,2,
+CMD-100415,2024-05-09,Casque,Marseille,43.27351681418923,5.340482170099329,3,72.96,218.87,False,1,
+CMD-100416,2024-12-08,Ordinateur,Lyon,45.76420671126365,4.822825051494675,4,882.83,3531.33,False,2,
+CMD-100417,2023-03-30,Ordinateur,Paris,48.84843653648022,2.341619230048647,5,891.74,4458.68,True,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100418,2023-08-05,Écran,Paris,48.864496225422926,2.34773420555892,1,248.04,248.04,False,3,
+CMD-100419,2024-01-05,Clavier,Marseille,43.272206633453834,5.3378808568078755,2,43.72,87.45,False,5,
+CMD-100420,2024-11-08,Ordinateur,Lyon,45.77828227497107,4.847605721206761,3,724.37,2173.12,False,4,
+CMD-100421,2024-05-21,Souris,Paris,48.8329248180588,2.3655257456502627,4,26.01,104.04,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100422,2024-07-13,Souris,Marseille,43.329354686038755,5.379967506500359,4,23.6,94.41,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100423,2024-02-29,Clavier,Paris,48.822284834312434,2.3347925265141782,2,45.15,90.31,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100424,2023-11-01,Écran,Paris,48.83474891459233,2.353930215815746,4,218.47,873.9,False,4,
+CMD-100425,2023-05-26,Écran,Paris,48.86494741606064,2.334211195208618,5,215.18,1075.91,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100426,2024-09-22,Écran,Marseille,43.329784665029955,5.36314806678457,3,233.91,701.73,False,5,
+CMD-100427,2024-08-10,Souris,Lille,50.635500860722324,3.1003693585434178,5,21.93,109.67,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100428,2023-01-19,Clavier,Lyon,45.77525715840365,4.837613907551925,4,43.14,172.55,True,5,
+CMD-100429,2024-06-06,Souris,Lyon,45.764350738033464,4.811949468480257,2,26.37,52.74,False,4,
+CMD-100430,2023-03-03,Écran,Lyon,45.7434720309177,4.839306706813279,2,209.19,418.38,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100431,2024-06-23,Clavier,Lyon,45.754197233035214,4.808664081478734,4,39.21,156.83,True,5,
+CMD-100432,2024-08-25,Clavier,Toulouse,43.58046180560038,1.4202197921496997,2,47.41,94.81,False,4,
+CMD-100433,2023-04-06,Souris,Lyon,45.738425800644464,4.814877537281024,2,27.25,54.49,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100434,2023-11-13,Souris,Toulouse,43.6127349783864,1.4353138109560863,2,24.91,49.82,False,2,
+CMD-100435,2023-04-01,Écran,Lille,50.60673644035824,3.076039379911784,4,185.49,741.96,False,1,
+CMD-100436,2024-02-19,Casque,Lille,50.63559108013447,3.068867963960337,2,84.52,169.04,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100437,2024-11-08,Ordinateur,Marseille,43.27046354495558,5.380259906564946,4,780.49,3121.95,False,2,
+CMD-100438,2023-03-01,Souris,Toulouse,43.610627660402336,1.422221508688189,5,25.62,128.09,False,5,
+CMD-100439,2023-10-18,Ordinateur,Lille,50.619426348620735,3.046473712891287,5,836.1,4180.51,True,1,
+CMD-100440,2024-12-11,Écran,Toulouse,43.63283231067302,1.4496400221376637,5,199.59,997.93,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100441,2023-08-08,Souris,Lyon,45.77047437791158,4.823133600292232,1,24.12,24.12,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100442,2023-04-07,Écran,Paris,48.881315657859886,2.346632671193978,3,216.77,650.32,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100443,2023-12-23,Clavier,Paris,48.841487065671494,2.361027173850599,2,42.68,85.36,True,4,
+CMD-100444,2024-01-07,Clavier,Lille,50.63032286680488,3.050324546375974,5,47.12,235.6,False,1,
+CMD-100445,2024-04-28,Écran,Marseille,43.276878256837676,5.37432119178204,4,212.15,848.6,False,1,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100446,2023-08-18,Souris,Lyon,45.755727895145114,4.867554569120392,2,26.96,53.92,False,4,
+CMD-100447,2024-11-28,Souris,Lyon,45.75875791554511,4.83226282402026,3,25.56,76.69,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100448,2024-01-16,Souris,Lyon,45.74948283558626,4.859286756194384,4,23.6,94.42,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100449,2023-07-29,Écran,Lille,50.604889942823085,3.068487401346147,3,204.76,614.28,True,3,
+CMD-100450,2024-12-02,Clavier,Toulouse,43.57642965352695,1.4148551601302646,3,39.07,117.21,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100451,2024-11-06,Écran,Lille,50.58240503768585,3.03525725941473,1,225.12,225.12,False,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100452,2023-12-31,Écran,Lyon,45.742873070729935,4.819028082338602,3,213.76,641.28,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100453,2023-01-19,Écran,Marseille,43.30904987793344,5.352703301661344,2,178.25,356.5,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100454,2024-03-11,Casque,Paris,48.82463002935973,2.3503942050778637,5,76.57,382.86,True,3,
+CMD-100455,2024-02-10,Souris,Lille,50.60183754307493,3.0695928809616366,5,23.2,115.99,False,4,
+CMD-100456,2023-04-19,Souris,Marseille,43.33231797142466,5.3949031683340944,4,28.15,112.61,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100457,2024-04-07,Clavier,Marseille,43.283770079003034,5.3759635017745016,1,38.87,38.87,False,1,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100458,2024-09-05,Clavier,Marseille,43.3029209201833,5.360886408878936,5,39.81,199.06,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100459,2023-03-19,Clavier,Lyon,45.776846342930014,4.7940551751274025,2,49.0,97.99,True,3,
+CMD-100460,2024-06-12,Clavier,Lille,50.642450522595624,3.058711791508347,3,49.88,149.65,True,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100461,2023-04-13,Clavier,Marseille,43.26605371538784,5.370315403873899,5,42.32,211.59,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100462,2024-06-30,Ordinateur,Toulouse,43.60007880640201,1.447858575070779,5,854.49,4272.45,False,4,
+CMD-100463,2023-11-02,Ordinateur,Paris,48.824235454609635,2.3943248059540667,1,944.37,944.37,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100464,2023-01-05,Casque,Lyon,45.812926357178206,4.860511930923861,2,65.11,130.21,False,5,
+CMD-100465,2024-12-06,Clavier,Lille,50.597302494719685,3.073001218365,4,38.3,153.2,True,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100466,2023-05-02,Casque,Paris,48.8356431956226,2.332958457398568,3,78.2,234.61,False,5,
+CMD-100467,2024-03-11,Écran,Paris,48.83578798290317,2.341940105016065,2,247.28,494.56,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100468,2023-05-13,Clavier,Lille,50.59926679046554,3.05540310786143,3,43.43,130.29,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100469,2024-11-12,Écran,Lyon,45.791051878195134,4.820191857519793,5,221.78,1108.88,False,2,
+CMD-100470,2024-06-22,Écran,Lyon,45.812448958021676,4.845709290499703,2,239.95,479.91,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100471,2024-08-10,Ordinateur,Marseille,43.28698501761375,5.376938176984313,4,1051.7,4206.78,False,5,
+CMD-100472,2023-11-12,Ordinateur,Paris,48.830191537063115,2.330433844138906,4,858.47,3433.87,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100473,2023-12-08,Casque,Paris,48.81186149002548,2.3761363341819224,5,79.89,399.46,False,4,
+CMD-100474,2024-04-08,Écran,Paris,48.85171782562956,2.354246206676177,2,252.07,504.14,True,3,
+CMD-100475,2024-07-26,Souris,Paris,48.85027269153677,2.3176185770651547,2,21.96,43.91,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100476,2024-09-10,Clavier,Paris,48.843574077472795,2.3511731428331006,3,48.7,146.1,False,3,
+CMD-100477,2023-01-14,Clavier,Toulouse,43.60912750507953,1.449824129118458,3,41.33,124.0,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100478,2024-04-29,Clavier,Lyon,45.771903462856315,4.855155847228715,3,45.37,136.11,False,3,
+CMD-100479,2023-03-21,Écran,Paris,48.86306166515876,2.3454504719374674,4,215.73,862.92,False,4,
+CMD-100480,2023-07-30,Casque,Paris,48.85027750256063,2.368758765348944,4,73.87,295.47,True,4,
+CMD-100481,2024-08-28,Souris,Marseille,43.274467563408514,5.373542839735404,2,23.03,46.07,True,2,
+CMD-100482,2023-07-02,Souris,Lille,50.64251666195613,3.0309989078192485,4,25.55,102.21,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100483,2024-08-04,Clavier,Lyon,45.76425027518843,4.80739666453035,2,48.58,97.17,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100484,2023-12-04,Écran,Paris,48.874367150496695,2.374651197402987,3,217.72,653.15,False,2,
+CMD-100485,2023-06-19,Casque,Lyon,45.77980151098945,4.859619683567636,1,80.45,80.45,False,4,
+CMD-100486,2023-09-01,Écran,Marseille,43.26806475861906,5.376258184608094,2,230.05,460.11,False,4,
+CMD-100487,2024-01-23,Ordinateur,Paris,48.82791555585085,2.3821141344236003,5,830.04,4150.22,False,3,
+CMD-100488,2024-07-12,Écran,Lille,50.61408918562519,3.0784321969808324,3,233.02,699.06,False,1,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100489,2024-03-18,Souris,Toulouse,43.58357469183419,1.4578725745895944,4,26.64,106.55,True,3,
+CMD-100490,2024-11-12,Souris,Lyon,45.77910503551953,4.817473770225327,1,30.21,30.21,False,2,
+CMD-100491,2024-09-25,Souris,Lille,50.636226193519754,3.091928575020647,4,24.25,96.99,False,4,
+CMD-100492,2024-07-03,Souris,Lyon,45.785983679875706,4.846426028644165,2,24.08,48.17,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100493,2024-03-16,Écran,Paris,48.86452973634822,2.3444832245077674,4,233.53,934.14,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100494,2023-07-31,Casque,Lille,50.633372991637465,3.0439345998938943,5,85.24,426.21,True,5,
+CMD-100495,2023-10-29,Clavier,Lille,50.653194595606884,3.0624356756302773,3,43.07,129.22,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100496,2023-03-28,Souris,Lyon,45.773394546794705,4.802278818303231,1,24.19,24.19,True,5,
+CMD-100497,2023-10-01,Ordinateur,Marseille,43.297862019268756,5.383793465507057,3,938.96,2816.88,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100498,2024-11-07,Casque,Paris,48.88620906067862,2.3331285837061193,1,74.7,74.7,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100499,2023-11-07,Écran,Toulouse,43.607003617663054,1.4516121621764857,3,212.77,638.32,True,3,
+CMD-100500,2023-03-25,Ordinateur,Toulouse,43.59861318790164,1.4337675932528366,1,906.45,906.45,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100501,2024-04-20,Clavier,Toulouse,43.58794353482445,1.438911625745506,4,48.59,194.34,False,5,
+CMD-100502,2024-12-03,Ordinateur,Marseille,43.31056050918091,5.354661802544698,2,856.47,1712.94,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100503,2024-09-25,Écran,Toulouse,43.62944101083685,1.440975411376384,2,187.57,375.15,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100504,2023-07-20,Souris,Marseille,43.295488251971335,5.407587590920347,1,21.17,21.17,False,5,
+CMD-100505,2023-11-28,Clavier,Lille,50.65535831247559,3.085001192540973,5,40.47,202.33,True,2,
+CMD-100506,2024-01-23,Casque,Paris,48.81719969936057,2.359289579099909,5,71.6,357.98,False,5,
+CMD-100507,2023-06-30,Écran,Marseille,43.29539093250384,5.3692941146887,5,217.28,1086.39,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100508,2023-07-16,Souris,Marseille,43.295698101757914,5.386684023813857,1,22.62,22.62,True,5,
+CMD-100509,2023-06-22,Clavier,Marseille,43.28196011255186,5.39239940788215,2,42.47,84.94,False,5,
+CMD-100510,2024-12-27,Souris,Paris,48.90427722075964,2.3356036323558493,5,23.45,117.26,True,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100511,2024-06-28,Clavier,Lyon,45.76267614734623,4.834151222647356,3,43.41,130.24,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100512,2024-09-05,Clavier,Lille,50.62104538456791,3.0208608354086386,1,49.76,49.76,False,5,
+CMD-100513,2024-08-19,Casque,Paris,48.85711924226867,2.374662042205218,1,84.24,84.24,False,5,
+CMD-100514,2024-12-01,Écran,Toulouse,43.56464372522949,1.485500485154017,2,220.28,440.57,True,3,
+CMD-100515,2023-03-18,Écran,Toulouse,43.589502641493105,1.4458016524924617,5,211.89,1059.43,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100516,2024-10-05,Souris,Marseille,43.31616479938891,5.327299797501939,1,24.13,24.13,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100517,2023-02-18,Souris,Paris,48.84402109290134,2.3643778103315403,5,25.66,128.28,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100518,2023-12-14,Ordinateur,Paris,48.840022496744,2.3341182166770182,4,942.06,3768.24,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100519,2024-03-09,Clavier,Lyon,45.79019051273029,4.822433011166711,5,41.73,208.66,False,5,
+CMD-100520,2023-09-19,Souris,Paris,48.88340508801904,2.36473152779582,5,25.07,125.36,False,5,
+CMD-100521,2023-04-17,Souris,Paris,48.866939809443224,2.357291082510254,2,20.94,41.87,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100522,2023-05-21,Casque,Paris,48.84749765331923,2.342437824493228,5,81.35,406.77,False,3,
+CMD-100523,2024-08-25,Clavier,Paris,48.85181057869767,2.3392078873479667,1,47.74,47.74,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100524,2023-08-21,Souris,Lille,50.6131170007685,3.0598167211044167,2,24.44,48.88,False,3,
+CMD-100525,2023-08-15,Écran,Toulouse,43.584804537619426,1.4360106889497526,2,251.97,503.94,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100526,2024-11-05,Casque,Paris,48.835711670233835,2.33001525732794,1,74.36,74.36,True,1,
+CMD-100527,2023-04-16,Clavier,Toulouse,43.592338911864296,1.4375487363704327,1,45.78,45.78,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100528,2024-10-30,Souris,Paris,48.83590558018631,2.3589918524651035,1,24.93,24.93,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100529,2024-11-03,Clavier,Marseille,43.265225897629136,5.366237930663607,1,44.64,44.64,False,4,
+CMD-100530,2024-03-12,Clavier,Paris,48.860988053395076,2.3239298280350362,2,44.59,89.18,False,2,
+CMD-100531,2023-05-01,Souris,Paris,48.86129191161787,2.3719812924275105,1,25.21,25.21,False,3,
+CMD-100532,2023-04-24,Clavier,Paris,48.89061585516857,2.2974237712611334,1,48.05,48.05,False,1,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100533,2023-07-27,Casque,Marseille,43.283133232632906,5.360872696899431,5,88.82,444.09,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100534,2024-02-26,Clavier,Marseille,43.302422011792466,5.357396030908921,1,44.99,44.99,True,4,
+CMD-100535,2023-04-23,Souris,Lyon,45.7702542515855,4.838663577557428,1,26.63,26.63,False,3,
+CMD-100536,2023-11-29,Écran,Toulouse,43.59962324877749,1.4554332361560547,1,207.65,207.65,False,2,
+CMD-100537,2023-03-26,Clavier,Toulouse,43.619586671775,1.4667352961652207,1,47.76,47.76,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100538,2024-01-30,Clavier,Toulouse,43.620204583737014,1.4299519025329568,3,42.26,126.77,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100539,2023-01-16,Ordinateur,Marseille,43.30304822190395,5.381531646746669,5,978.53,4892.64,False,4,
+CMD-100540,2024-06-01,Ordinateur,Marseille,43.29138720589905,5.373716367757629,4,1059.17,4236.66,False,4,
+CMD-100541,2023-02-10,Souris,Marseille,43.289349397828914,5.335569212496336,3,24.76,74.27,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100542,2023-05-23,Souris,Lyon,45.73664492202406,4.873710805108682,1,20.61,20.61,False,5,
+CMD-100543,2023-05-08,Souris,Marseille,43.28038164442765,5.341024497455196,4,23.9,95.62,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100544,2024-08-29,Ordinateur,Paris,48.844159849521965,2.3605899454461943,1,988.7,988.7,True,4,
+CMD-100545,2023-02-08,Écran,Lille,50.606720564751406,3.065099198883955,4,229.73,918.94,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100546,2023-11-10,Écran,Lyon,45.77279847933376,4.8412127356465815,3,224.38,673.14,True,4,
+CMD-100547,2024-03-07,Souris,Toulouse,43.62863255737974,1.4343084623567677,5,27.02,135.09,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100548,2024-01-12,Souris,Lille,50.61103875135341,3.07384505302281,2,25.97,51.94,False,1,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100549,2024-05-11,Écran,Marseille,43.3021688287149,5.338592650521138,4,241.43,965.73,False,5,
+CMD-100550,2024-08-09,Souris,Lille,50.6085177772094,3.055983424226522,3,26.84,80.52,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100551,2023-10-15,Ordinateur,Marseille,43.290401556581216,5.35852250646895,3,1009.56,3028.69,True,3,
+CMD-100552,2024-08-27,Écran,Paris,48.84279340841645,2.338654041158659,5,226.31,1131.57,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100553,2023-08-21,Ordinateur,Paris,48.868637912972126,2.3607749557490707,4,965.18,3860.71,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100554,2024-12-19,Écran,Paris,48.843024236523156,2.3737495708543936,3,214.59,643.78,True,4,
+CMD-100555,2024-01-04,Souris,Lille,50.64943320827413,3.0504348847632627,3,23.8,71.39,False,5,
+CMD-100556,2024-06-21,Casque,Marseille,43.29158558452676,5.385413621798516,4,90.92,363.69,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100557,2024-09-30,Écran,Lyon,45.7510079258081,4.836694813308892,2,223.81,447.61,False,4,
+CMD-100558,2024-08-01,Clavier,Marseille,43.2714338947531,5.351945355815239,1,47.9,47.9,False,4,
+CMD-100559,2024-09-13,Souris,Lyon,45.76906409020591,4.830540958135179,3,25.25,75.74,False,2,
+CMD-100560,2024-01-27,Casque,Lille,50.64710436804452,3.051310282184168,1,76.25,76.25,False,4,
+CMD-100561,2023-02-01,Souris,Lille,50.63466642513073,3.043366801749891,1,25.02,25.02,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100562,2023-12-26,Écran,Paris,48.90137663332829,2.3607696585731164,3,245.27,735.82,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100563,2023-05-13,Souris,Toulouse,43.63329574904941,1.448892923754095,4,26.11,104.44,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100564,2024-10-11,Écran,Lyon,45.75784944470566,4.8038870060346115,4,189.88,759.51,True,3,
+CMD-100565,2023-06-22,Casque,Paris,48.85023945132386,2.3191694800952125,2,78.62,157.24,True,5,
+CMD-100566,2023-06-16,Clavier,Lille,50.638593934389704,3.0657936890641153,3,51.42,154.25,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100567,2023-07-02,Souris,Paris,48.83983961639149,2.335894271424109,1,24.57,24.57,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100568,2024-04-14,Ordinateur,Lyon,45.78732576613065,4.841740823102007,4,770.37,3081.46,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100569,2024-02-21,Clavier,Paris,48.86383201043687,2.3678186315621836,2,51.81,103.63,True,5,
+CMD-100570,2024-11-23,Souris,Marseille,43.30162917821717,5.344380943251888,4,26.36,105.46,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100571,2023-10-31,Souris,Marseille,43.31023907335542,5.341569254908476,5,24.86,124.3,False,5,
+CMD-100572,2023-07-26,Clavier,Lyon,45.79845659766738,4.869188633647906,4,43.66,174.65,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100573,2023-02-05,Casque,Paris,48.86001910704375,2.359231415659249,2,86.93,173.85,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100574,2023-01-06,Souris,Paris,48.85433919258257,2.3438151868665345,5,23.92,119.58,False,5,
+CMD-100575,2023-09-30,Écran,Lille,50.65937439246645,3.038621190947075,4,240.21,960.84,False,5,
+CMD-100576,2024-11-06,Clavier,Lille,50.64855100831982,3.0470911830218546,4,46.95,187.81,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100577,2024-01-18,Clavier,Lille,50.62278040319232,3.033488553277734,5,45.88,229.4,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100578,2024-10-14,Souris,Marseille,43.29660372897318,5.387468243481812,5,25.29,126.46,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100579,2023-03-16,Écran,Marseille,43.30040761831878,5.354264976927873,1,216.92,216.92,False,5,
+CMD-100580,2023-03-10,Écran,Toulouse,43.6119362588921,1.4660706917643254,5,238.4,1192.02,False,4,
+CMD-100581,2024-08-31,Casque,Toulouse,43.57756800298122,1.4361874216045998,4,74.46,297.85,False,5,
+CMD-100582,2023-03-19,Casque,Marseille,43.26565030784397,5.348932996327654,2,69.62,139.24,True,5,
+CMD-100583,2023-02-07,Souris,Lyon,45.746252199559954,4.827173968239724,2,26.23,52.46,False,5,
+CMD-100584,2023-10-22,Casque,Marseille,43.277205231139774,5.317316664449971,4,84.04,336.16,True,5,
+CMD-100585,2024-11-06,Souris,Paris,48.84372351972055,2.34978462846652,2,25.96,51.92,True,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100586,2024-05-18,Souris,Paris,48.8692942128418,2.3487976161773965,3,25.82,77.45,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100587,2023-03-14,Souris,Toulouse,43.6013214168735,1.4606948549309593,4,24.36,97.44,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100588,2024-09-03,Clavier,Lille,50.6331278921002,3.0195739014403324,4,47.83,191.34,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100589,2024-09-07,Clavier,Paris,48.83211393179916,2.375437327217271,5,44.84,224.18,False,4,
+CMD-100590,2024-08-07,Écran,Paris,48.84736715594158,2.368611985899953,1,211.43,211.43,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100591,2024-10-20,Souris,Paris,48.8683451532349,2.377240871273973,2,24.38,48.75,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100592,2023-06-25,Écran,Toulouse,43.61659904916354,1.4431455724799171,5,255.56,1277.82,False,4,
+CMD-100593,2024-12-16,Écran,Lyon,45.74950852343625,4.855977936682055,3,189.46,568.39,False,5,
+CMD-100594,2023-08-23,Clavier,Lyon,45.767233247727596,4.806275119301862,2,46.8,93.6,False,3,
+CMD-100595,2024-08-08,Clavier,Paris,48.900576957069646,2.3664609513040906,2,38.96,77.91,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100596,2024-02-27,Écran,Lille,50.628848041414884,3.0418767447580013,2,218.1,436.19,False,1,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100597,2024-07-23,Souris,Marseille,43.28263626107715,5.336771963351541,3,24.13,72.4,False,4,
+CMD-100598,2024-04-03,Souris,Toulouse,43.60122475221276,1.4217171896367127,2,20.83,41.66,False,4,
+CMD-100599,2024-04-14,Écran,Toulouse,43.60654354215054,1.4443106227725853,4,226.85,907.39,False,5,
+CMD-100600,2024-03-25,Ordinateur,Paris,48.853576632386186,2.3357140158356477,3,872.64,2617.91,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100601,2024-07-22,Écran,Lille,50.628572905986466,3.064821470633916,4,183.05,732.22,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100602,2024-06-23,Souris,Marseille,43.26763106406126,5.3336352488999195,1,26.68,26.68,False,1,
+CMD-100603,2023-04-09,Souris,Toulouse,43.58544739049828,1.4016580491276827,4,27.87,111.48,False,2,
+CMD-100604,2024-08-26,Ordinateur,Lyon,45.76101329525857,4.863147748682872,5,1007.29,5036.44,False,5,
+CMD-100605,2024-01-27,Souris,Lille,50.62589464059955,3.075376002588029,1,25.72,25.72,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100606,2023-08-24,Ordinateur,Lille,50.6178762145028,3.036314063281724,2,903.32,1806.63,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100607,2024-01-11,Clavier,Marseille,43.292959728278475,5.369740007130589,4,49.78,199.13,True,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100608,2024-12-06,Casque,Paris,48.85782029710828,2.3725901412040264,4,90.77,363.07,False,4,
+CMD-100609,2024-09-18,Écran,Lille,50.64698826913049,3.0656840121658124,4,239.95,959.8,False,4,
+CMD-100610,2024-08-31,Écran,Lille,50.627215765295475,3.0602644619236696,3,203.43,610.29,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100611,2023-12-04,Clavier,Marseille,43.30448206410597,5.391703081626251,4,45.72,182.9,True,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100612,2024-07-26,Souris,Marseille,43.28566799397132,5.355185750495975,4,25.88,103.52,False,4,
+CMD-100613,2023-10-09,Casque,Lyon,45.77544191447197,4.836323568973293,1,68.42,68.42,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100614,2024-05-15,Casque,Paris,48.864114605952246,2.351843027234152,4,83.0,332.02,False,3,
+CMD-100615,2024-04-11,Ordinateur,Lille,50.64651634006359,3.0518447590465794,3,1063.66,3190.97,False,3,
+CMD-100616,2023-07-02,Ordinateur,Marseille,43.31076920924889,5.362003889771585,1,946.08,946.08,False,4,
+CMD-100617,2023-07-14,Souris,Lyon,45.775774712457626,4.83715736475657,3,27.95,83.84,False,4,
+CMD-100618,2023-02-14,Écran,Toulouse,43.60273165182684,1.4448881499197104,3,223.22,669.66,True,3,
+CMD-100619,2023-04-13,Souris,Paris,48.86149878454089,2.3312314471493094,1,24.85,24.85,True,4,
+CMD-100620,2023-11-13,Souris,Paris,48.87787017856903,2.3682359181980086,5,25.76,128.81,False,4,
+CMD-100621,2023-12-15,Ordinateur,Lyon,45.750958508611944,4.816172295844675,2,841.26,1682.52,True,5,
+CMD-100622,2023-05-01,Souris,Marseille,43.283931844426064,5.365435331109056,2,23.07,46.14,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100623,2023-11-01,Écran,Lyon,45.76762862795901,4.829794390545599,3,242.29,726.86,False,2,
+CMD-100624,2024-03-17,Clavier,Paris,48.86490559380531,2.3593620722531843,5,49.94,249.7,True,5,
+CMD-100625,2023-06-19,Clavier,Lyon,45.747517870014725,4.793317921195653,4,41.43,165.73,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100626,2023-09-04,Clavier,Lyon,45.762504748731736,4.853518196298589,4,48.48,193.94,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100627,2023-09-26,Souris,Marseille,43.294620024515424,5.356260193047756,2,24.83,49.65,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100628,2024-01-04,Souris,Marseille,43.25219439768793,5.394199265895541,5,25.68,128.4,False,3,
+CMD-100629,2023-09-25,Casque,Lille,50.62480812021482,3.047736701509677,5,82.95,414.73,False,1,
+CMD-100630,2024-06-21,Casque,Lille,50.62605364334303,3.05632312828532,3,86.36,259.09,True,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100631,2023-08-28,Clavier,Lyon,45.76079414114354,4.8739757208013685,3,45.3,135.89,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100632,2023-11-13,Ordinateur,Lille,50.65751828549154,3.0517532358241266,1,1001.53,1001.53,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100633,2023-10-05,Souris,Marseille,43.27218403402983,5.394576997693469,4,25.62,102.48,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100634,2023-05-14,Casque,Paris,48.84010754857591,2.352980901711291,5,83.99,419.97,False,1,
+CMD-100635,2024-05-15,Écran,Lyon,45.71175608403362,4.84400837660587,3,205.33,616.0,True,3,
+CMD-100636,2023-06-21,Clavier,Toulouse,43.59508166667652,1.4455991717882275,3,52.77,158.31,False,4,
+CMD-100637,2023-08-05,Clavier,Lille,50.62128712891748,3.0742570325260026,3,46.69,140.07,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100638,2024-08-01,Ordinateur,Lyon,45.753800456473314,4.8219893677429395,1,951.34,951.34,False,5,
+CMD-100639,2024-11-23,Souris,Paris,48.878753546789675,2.332519029539616,4,21.78,87.13,False,4,
+CMD-100640,2024-05-04,Clavier,Paris,48.87381235044674,2.3394284761924595,4,42.04,168.15,False,4,
+CMD-100641,2024-10-30,Souris,Paris,48.858157134485346,2.3541942075264815,5,27.48,137.38,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100642,2024-09-15,Souris,Toulouse,43.597287738929204,1.4397836242889934,5,25.57,127.87,True,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100643,2023-12-18,Souris,Marseille,43.31702379336214,5.384005497529423,3,21.17,63.52,False,4,
+CMD-100644,2024-07-16,Clavier,Marseille,43.29610484280329,5.39589463399643,5,48.74,243.69,False,5,
+CMD-100645,2023-08-28,Écran,Toulouse,43.58833459922163,1.4246832332552997,3,210.43,631.29,True,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100646,2023-12-03,Souris,Lille,50.5948750264503,3.0426210241677216,4,27.82,111.29,False,3,
+CMD-100647,2024-01-26,Souris,Toulouse,43.595873710122085,1.4154752116337428,4,24.82,99.3,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100648,2024-12-02,Clavier,Paris,48.87169287234345,2.392807459815182,5,45.74,228.68,True,3,
+CMD-100649,2024-09-11,Souris,Marseille,43.34203077379086,5.375893389982436,4,27.36,109.43,False,4,
+CMD-100650,2023-12-24,Ordinateur,Lille,50.630432206923786,3.0668960464010318,1,835.38,835.38,True,2,
+CMD-100651,2024-04-21,Souris,Toulouse,43.58939288969759,1.417395832299379,1,23.01,23.01,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100652,2023-05-28,Ordinateur,Lyon,45.74030069583432,4.835676600219863,3,885.85,2657.56,True,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100653,2024-08-10,Écran,Lyon,45.77503909792612,4.845884959688262,3,234.56,703.67,False,1,
+CMD-100654,2024-02-08,Clavier,Lille,50.59390767895231,3.0522448461893115,4,40.21,160.84,False,3,
+CMD-100655,2024-01-24,Ordinateur,Paris,48.8676069020281,2.3737141124965278,3,779.9,2339.7,False,3,
+CMD-100656,2024-07-13,Ordinateur,Marseille,43.31285423212526,5.4160366225128564,3,959.31,2877.92,False,5,
+CMD-100657,2024-04-07,Ordinateur,Paris,48.86532558906466,2.3332587434581207,5,856.59,4282.93,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100658,2023-02-22,Clavier,Lille,50.62480676656123,3.036858255080466,2,43.59,87.18,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100659,2023-07-30,Souris,Paris,48.86789881307094,2.3346448786894283,3,21.29,63.86,False,3,
+CMD-100660,2023-05-10,Ordinateur,Paris,48.86001876742257,2.38432398320033,3,851.11,2553.34,True,4,
+CMD-100661,2024-06-20,Souris,Lyon,45.74843752316279,4.856547106340594,3,24.98,74.95,False,4,
+CMD-100662,2023-01-26,Souris,Lyon,45.8010082464475,4.832989443644127,5,26.86,134.3,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100663,2023-05-28,Écran,Marseille,43.28946641240779,5.370531193288017,5,206.43,1032.13,False,4,
+CMD-100664,2024-03-12,Ordinateur,Lyon,45.779515046009,4.819369127476065,3,1019.33,3057.99,False,4,
+CMD-100665,2024-05-22,Souris,Lyon,45.71562771434609,4.853500543154864,3,23.63,70.89,False,4,
+CMD-100666,2024-01-03,Souris,Marseille,43.32202941765562,5.362201963517829,3,23.63,70.9,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100667,2024-09-20,Clavier,Marseille,43.32587527489309,5.3645984692108994,1,50.53,50.53,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100668,2024-11-01,Souris,Lille,50.62979667574253,3.069475795430585,3,25.42,76.27,True,3,
+CMD-100669,2023-04-07,Ordinateur,Marseille,43.30767542069476,5.366040101238335,2,860.25,1720.51,True,5,
+CMD-100670,2024-11-26,Clavier,Marseille,43.30767030363215,5.365100680130043,1,44.44,44.44,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100671,2024-03-24,Souris,Toulouse,43.59184432860719,1.4444115041105814,1,27.71,27.71,True,4,
+CMD-100672,2024-04-09,Écran,Paris,48.867542446108786,2.3681071082758613,3,245.81,737.42,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100673,2023-03-11,Souris,Toulouse,43.58852739060255,1.4771298615096766,1,23.37,23.37,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100674,2024-03-29,Clavier,Lille,50.61702486152709,3.0690097246449217,4,44.85,179.39,False,3,
+CMD-100675,2024-06-13,Souris,Lyon,45.78653886286425,4.851766284472485,3,25.18,75.54,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100676,2024-02-28,Clavier,Paris,48.876093153814004,2.3482029187579774,2,41.45,82.9,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100677,2023-03-03,Clavier,Lyon,45.74987248995769,4.821544042736626,4,44.8,179.2,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100678,2024-01-17,Écran,Lyon,45.749328473129985,4.848779724644702,3,220.09,660.28,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100679,2024-11-14,Écran,Marseille,43.283588067950845,5.373224816492011,4,240.07,960.27,False,5,
+CMD-100680,2024-06-12,Souris,Lille,50.64385279132931,3.028847427025005,4,27.41,109.66,False,4,
+CMD-100681,2023-04-11,Ordinateur,Marseille,43.276500304383795,5.363238607531487,1,876.3,876.3,False,4,
+CMD-100682,2024-12-01,Ordinateur,Paris,48.863734252780716,2.350542059530369,2,884.6,1769.19,False,1,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100683,2024-11-30,Écran,Lyon,45.77893693621269,4.8254908426594305,3,231.69,695.07,False,4,
+CMD-100684,2023-05-04,Écran,Toulouse,43.60293509099414,1.4738347118908424,5,209.7,1048.5,True,5,
+CMD-100685,2024-08-07,Souris,Lyon,45.7842012739373,4.845296780738044,1,26.18,26.18,False,5,
+CMD-100686,2023-10-24,Clavier,Marseille,43.2904137966102,5.3972634983577725,1,44.68,44.68,True,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100687,2024-03-09,Casque,Toulouse,43.60042288798012,1.4494685052330432,5,73.8,368.98,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100688,2023-11-21,Ordinateur,Lyon,45.74445507537737,4.837327756728501,5,831.11,4155.54,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100689,2024-07-25,Souris,Toulouse,43.625043546952405,1.425468043647795,1,27.89,27.89,True,4,
+CMD-100690,2024-12-28,Clavier,Lyon,45.74866959106043,4.835938590663932,3,44.44,133.31,False,1,
+CMD-100691,2024-08-03,Clavier,Paris,48.8635954363543,2.3524610785135085,4,50.91,203.62,False,4,
+CMD-100692,2024-11-10,Souris,Lyon,45.76257367865748,4.8083577223193155,1,23.97,23.97,False,2,
+CMD-100693,2024-11-21,Casque,Marseille,43.27544433873777,5.359009450604592,2,81.86,163.73,True,3,
+CMD-100694,2023-03-07,Souris,Paris,48.84441793712353,2.3457343480296724,2,29.79,59.57,False,4,
+CMD-100695,2023-07-04,Écran,Lille,50.65685744478081,3.0655695908811147,4,201.39,805.56,True,5,
+CMD-100696,2024-06-10,Écran,Marseille,43.300533150852694,5.379027002239714,2,186.6,373.2,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100697,2024-03-06,Souris,Paris,48.83641699317266,2.3405736303606957,3,27.57,82.72,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100698,2023-02-06,Écran,Lille,50.63530656574697,3.066677392050838,2,205.45,410.9,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100699,2023-03-11,Souris,Lille,50.626277719368105,3.05365842141303,4,24.96,99.83,False,1,
+CMD-100700,2024-01-15,Clavier,Paris,48.92568092804488,2.2948075995029007,1,42.89,42.89,True,3,
+CMD-100701,2024-03-25,Clavier,Paris,48.86230247682685,2.342505959360969,2,45.97,91.93,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100702,2023-05-03,Souris,Lyon,45.756387503058676,4.857279772802848,2,23.1,46.2,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100703,2023-05-06,Souris,Marseille,43.32490055835574,5.336163884867446,5,24.64,123.2,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100704,2023-04-05,Ordinateur,Toulouse,43.567879276654146,1.4464538240083107,5,932.39,4661.93,False,4,
+CMD-100705,2024-02-17,Ordinateur,Marseille,43.29838640312762,5.401505224283706,3,827.4,2482.21,False,4,
+CMD-100706,2023-01-06,Souris,Toulouse,43.64458856989362,1.4289877409397904,1,23.6,23.6,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100707,2024-02-22,Clavier,Paris,48.8542760143128,2.3522429816085535,4,43.75,175.0,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100708,2023-12-14,Écran,Toulouse,43.57003397910704,1.4181196748554414,3,194.85,584.56,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100709,2023-12-07,Clavier,Lille,50.621281640711786,3.0898446228332714,5,43.48,217.39,False,3,
+CMD-100710,2024-05-10,Souris,Marseille,43.325590360819184,5.368133347460067,2,25.24,50.48,True,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100711,2024-01-17,Souris,Marseille,43.30402139192642,5.37073253685588,5,24.2,121.0,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100712,2024-06-15,Clavier,Lyon,45.747222877809754,4.8627860093101125,5,44.02,220.12,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100713,2024-07-11,Clavier,Lille,50.615495143856414,3.0705295678929097,2,44.93,89.86,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100714,2024-11-02,Écran,Paris,48.84540599457701,2.334687425350065,4,208.46,833.84,False,2,
+CMD-100715,2024-08-06,Clavier,Lyon,45.77122395768108,4.822754441518254,2,47.49,94.98,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100716,2024-01-13,Écran,Paris,48.88336392265877,2.3620986260904657,2,245.27,490.55,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100717,2023-12-26,Clavier,Lille,50.65024846025598,3.0448175788987415,2,43.33,86.66,False,4,
+CMD-100718,2023-06-22,Souris,Marseille,43.30562024364218,5.3274551337575895,4,25.97,103.88,False,3,
+CMD-100719,2024-03-13,Ordinateur,Lille,50.60256710479885,3.0562351840272184,2,882.75,1765.5,False,5,
+CMD-100720,2023-04-12,Ordinateur,Toulouse,43.578141349720134,1.4145957467775037,4,926.32,3705.26,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100721,2024-11-10,Écran,Marseille,43.30716504042428,5.4021256350712745,3,247.56,742.67,True,4,
+CMD-100722,2024-09-08,Souris,Marseille,43.269590578041345,5.3733357527552625,4,26.02,104.07,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100723,2023-03-29,Souris,Lyon,45.75948865957863,4.817596498865129,5,21.45,107.27,False,4,
+CMD-100724,2024-07-27,Écran,Marseille,43.302583008923726,5.3558273517067505,1,227.99,227.99,False,2,
+CMD-100725,2023-03-27,Souris,Toulouse,43.58194812009275,1.4064120482425215,5,27.47,137.33,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100726,2024-06-10,Clavier,Lille,50.60871475331282,3.0353107622643902,1,44.2,44.2,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100727,2023-03-06,Clavier,Marseille,43.294617578708646,5.390126464050813,3,48.58,145.75,True,4,
+CMD-100728,2023-12-23,Casque,Lille,50.639273005750475,3.101935722909848,2,75.58,151.17,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100729,2024-04-25,Ordinateur,Lille,50.65043037540827,3.0718279302639795,4,793.04,3172.16,False,5,
+CMD-100730,2024-06-16,Écran,Marseille,43.308641068695415,5.367959149227579,4,222.48,889.94,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100731,2023-11-02,Clavier,Marseille,43.297973131899845,5.361160812486921,5,38.68,193.38,False,4,
+CMD-100732,2024-11-03,Écran,Paris,48.84167610492886,2.333070083728473,3,215.78,647.34,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100733,2024-07-19,Souris,Lyon,45.742581860083114,4.876895317986795,5,27.57,137.87,False,2,
+CMD-100734,2023-06-02,Écran,Lille,50.61898245823341,3.0535250259627125,2,186.39,372.78,False,5,
+CMD-100735,2024-05-04,Ordinateur,Paris,48.86479871169961,2.39451259660125,2,807.88,1615.75,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100736,2024-06-17,Écran,Lyon,45.77073247413255,4.863570390192201,2,201.84,403.67,False,4,
+CMD-100737,2023-09-01,Clavier,Toulouse,43.5627019602855,1.4093840713730745,3,44.77,134.32,True,4,
+CMD-100738,2024-06-22,Écran,Lyon,45.74828645943465,4.822380952084814,4,213.56,854.25,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100739,2024-10-17,Ordinateur,Lille,50.653290151032124,3.0439190975165236,5,1000.74,5003.69,False,4,
+CMD-100740,2024-08-19,Souris,Toulouse,43.606284300956084,1.4426030727178851,2,26.91,53.82,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100741,2024-07-10,Écran,Paris,48.82825982173794,2.350993714937725,2,228.72,457.43,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100742,2024-04-08,Clavier,Lyon,45.811116423631965,4.895624781907963,5,45.52,227.62,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100743,2023-07-17,Ordinateur,Toulouse,43.6041211653537,1.4226554425105047,3,928.31,2784.94,False,5,
+CMD-100744,2024-08-03,Clavier,Lille,50.63688667918627,3.061879398713288,2,41.9,83.79,False,5,
+CMD-100745,2023-09-23,Écran,Lille,50.6371904951209,3.069630154849356,5,235.09,1175.43,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100746,2024-01-24,Souris,Lille,50.62184809067679,3.057268559910616,3,22.78,68.33,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100747,2023-08-18,Écran,Paris,48.84204852636357,2.354403611555627,5,234.7,1173.51,True,1,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100748,2023-08-17,Souris,Toulouse,43.64713349970132,1.423303822113868,5,27.37,136.86,False,1,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100749,2023-04-26,Casque,Paris,48.87666411739235,2.3543297238920533,5,81.35,406.75,False,4,
+CMD-100750,2024-12-02,Ordinateur,Paris,48.873038744022175,2.362427979923487,3,887.31,2661.94,True,5,
+CMD-100751,2023-04-18,Ordinateur,Toulouse,43.616225783834366,1.4507520116854224,4,928.82,3715.29,False,5,
+CMD-100752,2023-03-04,Ordinateur,Marseille,43.276433652192765,5.3812040180782414,5,693.97,3469.85,True,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100753,2024-11-14,Souris,Toulouse,43.63025060383481,1.4724521580127246,2,25.6,51.21,False,5,
+CMD-100754,2024-02-10,Ordinateur,Lille,50.61233734683976,3.076039330838287,1,891.84,891.84,False,4,
+CMD-100755,2023-11-16,Souris,Paris,48.862265735963014,2.3536258922699487,2,24.9,49.8,False,3,
+CMD-100756,2024-06-22,Souris,Marseille,43.26371220189071,5.346364832962334,4,26.41,105.65,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100757,2023-10-07,Souris,Lille,50.58838282298705,3.045299894505778,3,24.85,74.55,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100758,2023-04-04,Clavier,Marseille,43.302865824053065,5.3654073769616515,1,40.9,40.9,False,5,
+CMD-100759,2024-06-16,Casque,Marseille,43.2803180146561,5.3748469166268285,3,79.1,237.29,False,4,
+CMD-100760,2023-05-09,Ordinateur,Marseille,43.256716648574056,5.360233344770012,1,904.86,904.86,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100761,2024-02-08,Clavier,Lille,50.64001219005894,3.0385853360163133,3,45.41,136.24,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100762,2024-11-23,Écran,Paris,48.899001615421014,2.328436026217593,3,222.85,668.55,False,5,
+CMD-100763,2024-11-14,Casque,Lille,50.6569912051716,3.0242764448188897,4,86.65,346.61,False,4,
+CMD-100764,2023-09-21,Clavier,Lille,50.62405364229468,3.0526009859245087,3,41.09,123.27,False,4,
+CMD-100765,2024-07-23,Souris,Lille,50.629376906133935,3.027906691158594,3,25.35,76.05,True,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100766,2024-03-23,Écran,Marseille,43.31425412513568,5.349789486316852,4,242.7,970.81,False,5,
+CMD-100767,2023-12-16,Casque,Marseille,43.3189425603967,5.361921962543113,4,68.9,275.59,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100768,2023-04-13,Clavier,Lyon,45.75712928562349,4.808981653812172,5,45.65,228.23,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100769,2023-10-02,Clavier,Lyon,45.764683554314495,4.843295043769974,2,42.89,85.79,False,5,
+CMD-100770,2024-04-20,Casque,Lille,50.635212296135286,3.072104461272114,3,77.63,232.88,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100771,2024-12-21,Clavier,Marseille,43.30757752640558,5.358811459604492,2,41.74,83.49,False,3,
+CMD-100772,2023-01-04,Clavier,Toulouse,43.60203847115977,1.4354594538477998,3,44.39,133.17,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100773,2024-06-07,Clavier,Paris,48.85419829509863,2.3629485954027816,1,51.63,51.63,False,3,
+CMD-100774,2024-09-09,Ordinateur,Toulouse,43.63229664659509,1.4299200980553064,3,808.96,2426.88,False,4,
+CMD-100775,2024-11-25,Écran,Toulouse,43.62889041404886,1.428545321768054,1,199.41,199.41,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100776,2023-11-06,Écran,Lille,50.638748211468716,3.0812299695637257,3,197.09,591.26,False,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100777,2023-03-28,Ordinateur,Paris,48.89098218140046,2.3698837547742557,5,1024.37,5121.87,False,1,
+CMD-100778,2023-07-17,Souris,Marseille,43.288771084755474,5.381831000046878,5,24.08,120.38,False,3,
+CMD-100779,2024-09-12,Clavier,Marseille,43.32895946897259,5.388312892427882,3,44.91,134.72,False,5,
+CMD-100780,2024-10-02,Clavier,Marseille,43.30735030887071,5.330254425492653,1,43.55,43.55,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100781,2024-04-10,Clavier,Paris,48.92202052244429,2.379276710935862,2,41.6,83.2,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100782,2023-03-31,Clavier,Marseille,43.27265036146435,5.377641242331674,1,44.15,44.15,False,4,
+CMD-100783,2023-03-31,Souris,Lyon,45.750213094955654,4.8559156276801145,4,29.92,119.67,False,5,
+CMD-100784,2023-12-16,Casque,Toulouse,43.61307595656401,1.4519432355823272,5,88.91,444.55,False,2,
+CMD-100785,2024-03-05,Casque,Lyon,45.77194468105958,4.836678496493604,3,74.54,223.62,False,3,
+CMD-100786,2023-01-24,Clavier,Marseille,43.3355027796835,5.364293815752759,1,47.33,47.33,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100787,2024-05-15,Écran,Toulouse,43.59133250633401,1.451542887537724,1,205.37,205.37,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100788,2024-02-02,Clavier,Paris,48.87469837037388,2.3459650418219087,5,38.61,193.03,False,5,
+CMD-100789,2023-01-09,Clavier,Toulouse,43.627949260093644,1.4615575220013022,2,48.67,97.34,False,5,
+CMD-100790,2023-03-11,Clavier,Toulouse,43.61879295664441,1.4124708671089559,1,49.18,49.18,True,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100791,2023-11-28,Souris,Paris,48.83738007316151,2.341368482764114,1,27.09,27.09,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100792,2024-06-11,Clavier,Paris,48.88475517610508,2.393096464969533,2,43.31,86.62,False,2,
+CMD-100793,2024-08-25,Écran,Lille,50.6537864986263,3.044778390728552,4,217.06,868.26,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100794,2023-11-11,Écran,Lyon,45.77599169039581,4.830926325538731,5,233.2,1165.98,True,5,
+CMD-100795,2023-08-04,Clavier,Lille,50.633286953744175,3.0396483813329986,2,46.41,92.82,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100796,2024-12-07,Ordinateur,Marseille,43.30102216020089,5.376516913457716,4,871.66,3486.63,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100797,2023-12-01,Écran,Lyon,45.76242528415521,4.820974702197156,1,191.5,191.5,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100798,2023-08-19,Souris,Lyon,45.776815702685056,4.831987781303859,1,25.23,25.23,True,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100799,2023-11-19,Clavier,Toulouse,43.6053226970589,1.4611773307207014,1,48.88,48.88,False,4,
+CMD-100800,2023-01-09,Écran,Paris,48.83962950049295,2.3382247316237037,5,198.92,994.61,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100801,2023-08-09,Clavier,Marseille,43.27552816710345,5.385572222385304,3,47.3,141.9,False,4,
+CMD-100802,2024-01-12,Souris,Lyon,45.74895927492696,4.852144586311208,5,25.66,128.32,True,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100803,2024-11-01,Écran,Paris,48.86104264485099,2.3732991218943855,1,233.2,233.2,False,2,
+CMD-100804,2024-06-22,Souris,Lyon,45.7634608832713,4.838510819898361,1,26.74,26.74,False,5,
+CMD-100805,2024-07-24,Casque,Marseille,43.300806875865774,5.434625181539535,5,75.56,377.78,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100806,2024-02-02,Clavier,Toulouse,43.614716262670925,1.4652906739308416,1,39.18,39.18,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100807,2023-03-22,Souris,Paris,48.84405358148166,2.3586975524881364,1,23.93,23.93,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100808,2023-10-13,Ordinateur,Lille,50.6585132033669,3.0397815117183655,3,964.02,2892.05,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100809,2024-12-28,Casque,Lille,50.623845783459046,3.0553588174825173,4,76.53,306.12,False,5,
+CMD-100810,2023-02-02,Clavier,Toulouse,43.596031460304374,1.4727265395380007,2,42.5,85.0,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100811,2024-10-03,Casque,Lille,50.63884772474665,3.0914906923125254,3,68.34,205.03,True,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100812,2024-05-14,Clavier,Marseille,43.2597697959525,5.399366582008804,4,51.31,205.24,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100813,2023-07-27,Ordinateur,Lille,50.61338931100554,3.0730038461345925,3,959.45,2878.35,False,4,
+CMD-100814,2024-07-21,Ordinateur,Toulouse,43.624321455973835,1.4190867958740885,2,955.43,1910.87,True,2,
+CMD-100815,2024-09-02,Souris,Marseille,43.26175156141876,5.379543236356513,1,26.94,26.94,False,1,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100816,2023-02-01,Clavier,Paris,48.878951483938664,2.32737195243894,3,47.08,141.23,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100817,2023-03-19,Ordinateur,Marseille,43.32672273132719,5.340050576132384,5,882.41,4412.04,True,3,
+CMD-100818,2024-04-30,Souris,Lille,50.62181089324352,3.062083173691545,4,24.67,98.69,False,1,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100819,2024-12-30,Souris,Lille,50.635036255348524,3.067763988945395,5,24.14,120.72,False,3,
+CMD-100820,2023-01-18,Clavier,Marseille,43.31888174169702,5.387867541969616,1,54.49,54.49,True,5,
+CMD-100821,2024-04-30,Clavier,Lyon,45.754664216239135,4.845642724807722,1,47.0,47.0,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100822,2023-04-10,Ordinateur,Toulouse,43.622055510410526,1.4548317197148548,3,866.61,2599.82,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100823,2024-04-19,Souris,Paris,48.843177024097386,2.332506948300152,1,25.93,25.93,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100824,2024-03-31,Écran,Paris,48.84704795413334,2.3501004663063063,3,202.21,606.63,True,3,
+CMD-100825,2023-03-08,Souris,Marseille,43.2805132707135,5.33965766428731,5,28.01,140.05,False,5,
+CMD-100826,2024-05-11,Clavier,Lille,50.63605294398389,3.017232617411996,2,42.62,85.24,False,5,
+CMD-100827,2024-10-16,Clavier,Lyon,45.78715938105131,4.850512854196862,3,46.8,140.41,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100828,2024-09-22,Écran,Marseille,43.29281774135766,5.3547375121241805,4,238.76,955.04,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100829,2023-01-22,Écran,Lyon,45.738575016801754,4.853149970042861,1,226.77,226.77,True,3,
+CMD-100830,2023-06-29,Souris,Marseille,43.27484586355427,5.391966951557601,5,25.19,125.94,False,4,
+CMD-100831,2023-06-25,Clavier,Paris,48.86449198842741,2.339813653507536,2,45.04,90.08,True,4,
+CMD-100832,2023-11-27,Clavier,Marseille,43.33338232826789,5.381606221891106,5,44.8,223.98,False,1,
+CMD-100833,2023-04-15,Casque,Marseille,43.30437449998629,5.356576865427727,4,76.31,305.24,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100834,2024-09-15,Casque,Lyon,45.75626206898698,4.798782422507464,1,77.12,77.12,True,4,
+CMD-100835,2024-07-21,Souris,Lyon,45.77932367933701,4.83816618808885,4,27.96,111.84,False,4,
+CMD-100836,2024-08-13,Écran,Toulouse,43.59991002728827,1.4347825224056847,1,218.09,218.09,True,3,
+CMD-100837,2023-05-25,Clavier,Paris,48.849034295652714,2.343398219788257,3,42.17,126.51,True,5,
+CMD-100838,2023-01-11,Souris,Paris,48.837430817886094,2.3917068623569104,5,23.97,119.84,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100839,2024-10-26,Clavier,Paris,48.88476897688493,2.3216828603453465,5,48.96,244.81,False,2,
+CMD-100840,2023-07-30,Ordinateur,Lille,50.578415841650084,3.0649574227074297,5,948.64,4743.22,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100841,2024-04-24,Souris,Lyon,45.77995718400559,4.815803855257105,3,26.12,78.36,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100842,2024-10-25,Clavier,Paris,48.84732510124405,2.3703652281853462,3,44.07,132.22,True,5,
+CMD-100843,2023-01-27,Clavier,Lille,50.62099318537096,3.0632686247235013,2,47.06,94.13,False,3,
+CMD-100844,2023-01-04,Casque,Paris,48.89044630312236,2.359786886983612,5,75.88,379.41,True,5,
+CMD-100845,2023-01-04,Souris,Lyon,45.749717378156,4.816802207647955,3,24.48,73.44,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100846,2023-04-25,Clavier,Paris,48.84299861691943,2.3368882417342336,4,48.49,193.97,False,2,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100847,2023-02-07,Clavier,Toulouse,43.60209211522161,1.4627450101469177,2,48.15,96.29,False,2,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100848,2024-08-21,Clavier,Toulouse,43.61297694771625,1.4796159544345513,4,41.47,165.86,False,3,
+CMD-100849,2024-03-18,Ordinateur,Toulouse,43.59586288435414,1.4538061563444837,2,838.4,1676.8,False,3,
+CMD-100850,2024-12-16,Souris,Lyon,45.73252282138929,4.817751585584571,4,25.22,100.87,False,4,
+CMD-100851,2024-08-08,Souris,Lyon,45.746686036382364,4.842478770449241,1,28.45,28.45,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100852,2024-12-04,Écran,Lille,50.654826677129286,3.1058494408867525,1,186.29,186.29,True,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100853,2023-06-24,Écran,Lille,50.630695535782706,3.0593484562143782,2,224.9,449.8,True,5,
+CMD-100854,2023-07-30,Souris,Paris,48.865621745674076,2.381436817187872,3,22.25,66.74,False,3,
+CMD-100855,2024-09-12,Ordinateur,Toulouse,43.59947157585654,1.4293934126832257,4,854.33,3417.31,False,4,
+CMD-100856,2023-06-28,Clavier,Lille,50.61601004607653,3.0564582789672725,2,43.69,87.38,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100857,2023-02-11,Clavier,Marseille,43.33005138899751,5.382191304122511,1,43.49,43.49,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100858,2024-05-03,Souris,Toulouse,43.60093616285898,1.4521465661652573,2,23.93,47.86,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100859,2024-08-07,Écran,Paris,48.84773260240946,2.3368722263977766,3,220.13,660.38,True,5,
+CMD-100860,2024-12-07,Souris,Paris,48.878522847327105,2.3360096508573878,3,23.93,71.79,False,2,
+CMD-100861,2024-11-08,Clavier,Paris,48.84215279282265,2.371965688062053,4,39.74,158.94,False,1,
+CMD-100862,2023-03-29,Souris,Paris,48.84470545312452,2.3760310162530027,2,26.56,53.12,False,4,
+CMD-100863,2024-07-17,Ordinateur,Lille,50.629404933680334,3.0875428711624386,4,954.21,3816.83,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100864,2024-09-09,Clavier,Toulouse,43.60470540208176,1.4802786096650573,4,48.04,192.14,False,4,
+CMD-100865,2024-05-24,Clavier,Toulouse,43.60989222695807,1.4468923887264518,4,39.45,157.81,False,3,
+CMD-100866,2024-08-21,Écran,Lyon,45.80583338178791,4.829476015115368,3,225.26,675.78,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100867,2024-09-03,Ordinateur,Lille,50.63592496492704,3.0843198187755694,5,948.67,4743.35,False,5,
+CMD-100868,2023-11-22,Écran,Paris,48.80903892074498,2.366461385637032,2,201.85,403.7,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100869,2023-01-30,Écran,Lille,50.63572597886863,3.0376508948266485,4,220.16,880.65,False,5,
+CMD-100870,2023-11-30,Ordinateur,Paris,48.857357599889795,2.3315272866896217,1,891.63,891.63,False,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100871,2023-05-28,Casque,Paris,48.85746900048703,2.362038604027126,1,91.79,91.79,True,1,
+CMD-100872,2023-03-25,Clavier,Paris,48.86151894618792,2.3486545067703197,5,51.93,259.64,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100873,2023-04-02,Souris,Toulouse,43.6041264342465,1.443671400905186,3,21.67,65.01,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100874,2024-05-24,Casque,Lyon,45.76294775813889,4.857150667294204,4,95.96,383.84,False,4,
+CMD-100875,2024-01-04,Ordinateur,Marseille,43.308760884195415,5.3849807428997005,4,834.1,3336.41,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100876,2024-01-30,Souris,Marseille,43.28565838405611,5.396397464968368,4,26.96,107.85,False,4,
+CMD-100877,2024-06-27,Souris,Toulouse,43.58574627328722,1.4055692778725326,2,26.94,53.88,False,3,
+CMD-100878,2024-02-05,Souris,Lyon,45.82447562905245,4.840767958344424,1,23.01,23.01,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100879,2024-04-04,Clavier,Paris,48.842282851124374,2.366093770447944,1,46.78,46.78,False,4,
+CMD-100880,2023-03-04,Clavier,Lyon,45.7660028582492,4.805168282866246,5,44.61,223.06,False,4,
+CMD-100881,2024-09-13,Ordinateur,Lyon,45.734086794982495,4.8226020871738005,2,939.91,1879.82,False,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100882,2023-11-24,Clavier,Toulouse,43.60702936830103,1.4273902967534216,3,45.83,137.49,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100883,2023-04-24,Casque,Toulouse,43.58603548898621,1.4446339634211982,3,87.66,262.97,False,5,
+CMD-100884,2024-08-16,Casque,Paris,48.847750541143,2.3847570793738813,1,80.48,80.48,False,5,
+CMD-100885,2024-06-20,Ordinateur,Toulouse,43.62560129331543,1.484651788093298,3,887.91,2663.74,False,2,
+CMD-100886,2023-02-08,Souris,Paris,48.86604019136756,2.335914248938534,1,27.19,27.19,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100887,2023-05-21,Écran,Toulouse,43.6160681904915,1.4547311450098714,1,230.21,230.21,True,4,
+CMD-100888,2023-01-12,Casque,Lyon,45.72857590323216,4.846875957042847,1,84.68,84.68,False,4,
+CMD-100889,2023-07-17,Ordinateur,Lyon,45.80073790339658,4.843452515430295,5,852.15,4260.75,False,1,
+CMD-100890,2023-03-14,Casque,Marseille,43.272662373781166,5.377779592694784,3,73.31,219.93,False,5,
+CMD-100891,2024-06-02,Souris,Lyon,45.79457121628588,4.841774850049027,5,23.86,119.32,False,5,
+CMD-100892,2024-01-17,Ordinateur,Toulouse,43.625130877319634,1.4779514024161284,3,855.3,2565.9,False,1,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100893,2024-12-16,Ordinateur,Lille,50.64074665483569,3.079349330287361,2,956.61,1913.21,True,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100894,2024-07-01,Souris,Lille,50.612100304381826,3.036096922048035,4,26.95,107.81,False,3,
+CMD-100895,2024-03-22,Écran,Marseille,43.29953179689639,5.38571442161761,5,217.27,1086.35,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100896,2024-01-07,Clavier,Marseille,43.287081571787105,5.387647467490229,3,50.15,150.45,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100897,2023-02-09,Casque,Marseille,43.297080791430105,5.376099345743035,1,88.76,88.76,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100898,2023-02-21,Clavier,Toulouse,43.59970255481829,1.4668284874100546,2,45.88,91.75,False,5,
+CMD-100899,2024-03-25,Clavier,Marseille,43.25572778986855,5.37356148068598,5,42.04,210.21,False,4,
+CMD-100900,2023-01-04,Clavier,Marseille,43.318935683019696,5.373809354421525,3,50.67,152.01,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100901,2023-01-31,Ordinateur,Marseille,43.294877856869014,5.372224810893541,5,895.61,4478.03,True,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100902,2023-06-09,Casque,Lyon,45.75430399200996,4.795335118284007,3,80.81,242.42,True,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100903,2024-10-07,Écran,Marseille,43.28529345534341,5.368192032121883,1,214.02,214.02,False,4,
+CMD-100904,2023-12-02,Écran,Toulouse,43.61186919152733,1.4308349885109086,5,204.34,1021.7,False,3,
+CMD-100905,2024-06-01,Écran,Marseille,43.278624873234115,5.346071040436149,4,194.15,776.61,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100906,2023-10-28,Casque,Lille,50.58409648883052,3.0859803656947906,4,84.05,336.2,False,5,
+CMD-100907,2023-05-07,Ordinateur,Lille,50.637342596064165,3.0673841503706893,5,843.6,4217.98,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100908,2023-09-28,Souris,Marseille,43.306882059959136,5.369203378381108,1,31.12,31.12,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100909,2023-03-08,Souris,Lille,50.62520736350645,3.0460039329779516,5,22.83,114.14,False,4,
+CMD-100910,2024-07-16,Souris,Paris,48.8336419424962,2.358123391692575,2,22.49,44.97,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100911,2023-05-14,Casque,Lille,50.630978710817786,3.0771287218663503,5,83.26,416.32,False,3,
+CMD-100912,2023-10-02,Souris,Lyon,45.73470935263373,4.819160683129061,1,28.06,28.06,False,5,
+CMD-100913,2024-12-16,Casque,Marseille,43.27595538806625,5.369703432554467,3,80.41,241.24,False,3,
+CMD-100914,2024-03-08,Ordinateur,Lyon,45.74898604126992,4.853061329977024,4,941.2,3764.81,False,1,
+CMD-100915,2023-12-01,Souris,Marseille,43.31337878141783,5.331079977418317,1,21.31,21.31,True,3,
+CMD-100916,2024-02-01,Clavier,Lyon,45.75674778099126,4.834548604751892,1,42.56,42.56,False,1,
+CMD-100917,2024-07-26,Clavier,Toulouse,43.59574267176447,1.4356141725890492,5,41.13,205.67,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100918,2023-07-05,Souris,Paris,48.89569385030823,2.3495234028448992,1,21.21,21.21,False,5,
+CMD-100919,2024-04-09,Casque,Lille,50.63624924994377,3.047267428872562,4,80.75,322.99,False,5,
+CMD-100920,2024-09-29,Souris,Lille,50.63597989020949,3.060052492104146,5,20.51,102.57,True,2,
+CMD-100921,2024-02-22,Clavier,Marseille,43.28910598509582,5.408272544408454,4,40.24,160.96,False,5,
+CMD-100922,2023-11-22,Clavier,Marseille,43.28457256664726,5.3633215505214284,3,43.07,129.2,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100923,2023-04-16,Clavier,Toulouse,43.560971871199655,1.450034220181882,3,42.01,126.02,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100924,2023-07-01,Clavier,Paris,48.875974810638475,2.392094928368182,4,46.43,185.71,False,4,
+CMD-100925,2024-11-21,Clavier,Toulouse,43.613666194115126,1.4331996884325489,3,46.1,138.3,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100926,2024-01-31,Ordinateur,Lyon,45.760416680135734,4.87199350697858,3,964.35,2893.06,False,1,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100927,2023-08-08,Ordinateur,Toulouse,43.60195546596328,1.4443064601325422,1,954.17,954.17,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100928,2023-11-02,Souris,Lyon,45.77872288524522,4.871337924517299,4,27.28,109.13,False,5,
+CMD-100929,2024-02-26,Clavier,Toulouse,43.5736057985384,1.4592040224989262,4,44.99,179.97,False,3,
+CMD-100930,2024-01-28,Casque,Toulouse,43.59290237336892,1.4503421672516483,4,81.94,327.77,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100931,2024-05-25,Souris,Lyon,45.741273942742154,4.834387386362268,1,26.02,26.02,False,4,
+CMD-100932,2023-07-07,Ordinateur,Toulouse,43.64013018564974,1.4317191712024158,4,910.2,3640.8,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100933,2024-04-18,Écran,Marseille,43.31401311063707,5.371315830999286,4,213.01,852.04,False,5,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100934,2023-11-20,Écran,Lyon,45.719946147177296,4.8536472291804005,1,214.15,214.15,True,5,
+CMD-100935,2024-11-17,Casque,Marseille,43.2662247674672,5.369537771380067,5,74.77,373.84,False,4,
+CMD-100936,2023-04-26,Écran,Lille,50.626553086532844,3.050967543898763,3,227.42,682.26,False,4,
+CMD-100937,2023-04-19,Clavier,Paris,48.84715119575855,2.3471843493164446,3,44.66,133.98,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100938,2023-12-04,Casque,Lille,50.60271235583846,3.0771495322716613,4,75.76,303.02,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100939,2024-01-07,Casque,Lille,50.668095244753005,3.081803229101997,3,75.76,227.28,True,2,
+CMD-100940,2024-05-19,Écran,Marseille,43.302750798279654,5.356456989724633,3,198.7,596.09,False,4,
+CMD-100941,2023-10-22,Ordinateur,Toulouse,43.61419632645726,1.4308282428510501,2,970.48,1940.95,True,5,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100942,2024-10-29,Écran,Lyon,45.750159701015356,4.843287178393342,5,221.38,1106.92,False,4,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100943,2023-12-13,Ordinateur,Paris,48.87104548294356,2.382750641295145,5,837.88,4189.39,False,5,
+CMD-100944,2023-04-05,Écran,Marseille,43.28889134478036,5.392719806166251,1,234.23,234.23,False,4,
+CMD-100945,2023-03-29,Clavier,Lille,50.62353313652585,3.032262955756402,4,42.98,171.93,True,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100946,2024-12-11,Casque,Lyon,45.77622003919651,4.830418480600163,1,71.0,71.0,False,1,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100947,2023-04-08,Clavier,Toulouse,43.57212004869879,1.4255879289062097,2,48.68,97.35,False,2,
+CMD-100948,2024-11-22,Souris,Toulouse,43.63664055719702,1.4388497495616948,5,23.93,119.63,False,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100949,2023-07-22,Écran,Toulouse,43.60834778429448,1.476288199920707,1,212.8,212.8,True,4,
+CMD-100950,2023-03-10,Souris,Lyon,45.78961888417561,4.80724798702434,2,25.08,50.16,True,3,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100951,2023-08-11,Souris,Lyon,45.742491604867624,4.803322694134397,2,27.29,54.57,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100952,2024-03-24,Souris,Marseille,43.27803669751944,5.353228916931328,4,25.04,100.16,False,3,
+CMD-100953,2023-11-09,Casque,Lille,50.605961995568,3.06304621205152,3,72.33,216.98,False,5,
+CMD-100954,2024-07-27,Écran,Lille,50.634205953453296,3.0697150964128155,3,229.57,688.72,True,5,
+CMD-100955,2024-03-22,Ordinateur,Marseille,43.297819666038365,5.37854896869723,5,865.08,4325.4,False,4,
+CMD-100956,2023-10-20,Écran,Lille,50.61991176361538,3.0808137080646203,3,253.23,759.68,True,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100957,2024-04-08,Clavier,Marseille,43.276218616142295,5.334538288115321,4,45.0,179.98,False,2,
+CMD-100958,2024-12-10,Casque,Lyon,45.738668074605386,4.859466730767179,1,65.7,65.7,False,2,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100959,2023-10-28,Clavier,Paris,48.85563032199059,2.345958093599074,2,46.29,92.57,False,4,
+CMD-100960,2023-04-23,Souris,Toulouse,43.59538826440823,1.4588298861960973,5,28.89,144.45,True,1,
+CMD-100961,2023-10-26,Clavier,Toulouse,43.590987860152836,1.4177314914647359,5,50.67,253.37,False,3,
+CMD-100962,2024-09-05,Écran,Lille,50.66014178972263,3.0573991339401814,4,252.22,1008.9,True,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100963,2023-06-08,Écran,Toulouse,43.603053486436146,1.44892541541178,2,202.05,404.1,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100964,2024-11-23,Souris,Paris,48.88200085867854,2.375315020749968,1,26.82,26.82,False,5,
+CMD-100965,2024-03-05,Souris,Marseille,43.28583495634635,5.338094907547845,5,23.56,117.78,False,2,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100966,2024-03-15,Clavier,Toulouse,43.60959552567597,1.444815050970698,4,45.81,183.23,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100967,2023-08-20,Écran,Marseille,43.29539047967487,5.348095294177157,2,197.6,395.19,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100968,2024-11-02,Souris,Marseille,43.26254755380964,5.379909920884165,3,23.71,71.13,True,4,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100969,2023-01-27,Écran,Lille,50.65776676612528,3.0728443307291227,4,208.1,832.39,False,4,
+CMD-100970,2023-08-07,Casque,Toulouse,43.60199692785935,1.4699434048501616,3,85.75,257.25,False,5,
+CMD-100971,2023-11-02,Écran,Toulouse,43.61962836439266,1.4334994109138324,5,234.09,1170.46,False,4,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100972,2023-12-15,Ordinateur,Marseille,43.28145942555077,5.388344529713775,1,919.93,919.93,False,3,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100973,2023-12-13,Clavier,Lyon,45.76070311236841,4.862918031749541,2,40.14,80.28,True,4,
+CMD-100974,2023-04-18,Clavier,Marseille,43.279162952801535,5.33693506060289,1,43.88,43.88,False,2,
+CMD-100975,2023-06-14,Clavier,Lille,50.65391996965526,3.069546898401969,4,42.31,169.26,False,2,
+CMD-100976,2023-03-11,Clavier,Toulouse,43.61092818694902,1.463370225075602,4,48.13,192.52,False,1,
+CMD-100977,2024-02-22,Casque,Toulouse,43.61204107053362,1.439025472272251,5,87.54,437.7,False,5,
+CMD-100978,2023-09-14,Clavier,Paris,48.8837636829421,2.3279845284494978,3,48.8,146.41,True,4,
+CMD-100979,2024-02-18,Clavier,Lille,50.652326825937976,3.076159115122193,1,42.28,42.28,False,3,
+CMD-100980,2024-03-06,Clavier,Lyon,45.779306850722726,4.811709823448845,3,35.14,105.41,True,3,
+CMD-100981,2024-05-27,Ordinateur,Lille,50.600765453059246,3.053732971309782,1,772.78,772.78,True,4,
+CMD-100982,2024-02-04,Clavier,Marseille,43.28258641760967,5.368997518843933,4,50.12,200.47,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100983,2024-04-18,Écran,Lille,50.60912223727977,3.07161076103408,4,212.94,851.75,False,3,
+CMD-100984,2024-03-04,Souris,Lille,50.64375067387251,3.0447673688097496,5,23.5,117.49,True,3,
+CMD-100985,2024-04-21,Ordinateur,Toulouse,43.608113038835,1.4305083262234428,2,1018.27,2036.54,False,5,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100986,2024-03-26,Casque,Lille,50.60138975132739,3.0592783095752623,2,88.1,176.19,True,5,
+CMD-100987,2023-08-19,Clavier,Toulouse,43.60092511573978,1.4643278095523948,1,45.09,45.09,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100988,2023-06-29,Souris,Lille,50.599317753285625,3.1030490000130633,3,24.41,73.24,False,3,"Qualité décevante pour le prix, je ne commanderai probablement plus ce modèle."
+CMD-100989,2024-07-28,Clavier,Paris,48.8555368702386,2.3220503760044244,3,44.52,133.57,True,2,
+CMD-100990,2023-09-08,Ordinateur,Paris,48.82349254992025,2.3585068403557314,4,916.36,3665.42,False,4,"Livraison rapide et produit conforme à la description, je recommande vivement."
+CMD-100991,2024-02-05,Souris,Marseille,43.307076549867695,5.348069299475314,4,28.2,112.8,False,3,Emballage abîmé mais le produit fonctionne correctement après plusieurs jours d'utilisation.
+CMD-100992,2023-05-24,Souris,Lille,50.636759252520676,3.077676224864135,1,25.84,25.84,False,5,"Service client réactif, remboursement effectué sans difficulté particulière."
+CMD-100993,2023-11-11,Souris,Toulouse,43.642858969866936,1.4254291090538154,2,26.45,52.9,False,1,
+CMD-100994,2024-01-22,Clavier,Marseille,43.31345746578995,5.356307035636354,3,49.21,147.63,False,4,
+CMD-100995,2024-04-01,Souris,Marseille,43.288041714883555,5.358014582818719,2,22.66,45.32,False,5,
+CMD-100996,2024-01-20,Souris,Toulouse,43.62106140186549,1.4426760212256038,1,26.51,26.51,False,5,
+CMD-100997,2023-09-21,Souris,Lille,50.60124672238109,3.063763951937174,5,24.41,122.05,False,4,
+CMD-100998,2024-12-03,Écran,Lille,50.609950547926374,3.0669740278721704,4,175.72,702.87,False,5,
+CMD-100999,2024-01-10,Souris,Paris,48.863262850641505,2.3520846490763443,3,20.74,62.23,False,2,

@@ -1,0 +1,32 @@
+# DATAINSIGHT – dépendances
+# Versions testées : Python 3.13, streamlit 1.67, pandas 3.1, numpy 2.4, scipy 1.17,
+# plotly 7.1, pyarrow 26, openpyxl 3.1, reportlab 5.1, matplotlib 3.11.
+
+# --- Socle (obligatoire) ---
+streamlit>=1.50,<2          # interface (st.navigation, st.badge, thèmes clair/sombre)
+pandas>=2.2                 # manipulation des données
+numpy>=1.26
+scipy>=1.11                 # tests statistiques, corrélations, KDE
+plotly>=5.20                # graphiques interactifs
+matplotlib>=3.8             # graphiques statiques du rapport PDF (+ police DejaVu)
+reportlab>=4.0              # rapport PDF
+jinja2>=3.1                 # rapport HTML
+charset-normalizer>=3.0     # détection d'encodage
+
+# --- Formats de fichiers ---
+openpyxl>=3.1               # XLSX / XLSM (lecture et export Excel)
+xlrd>=2.0                   # XLS (Excel 97-2003)
+odfpy>=1.4                  # ODS (OpenDocument)
+pyarrow>=14                 # Parquet, Feather, ORC (ORC indisponible sur certaines plateformes Windows)
+lxml>=4.9                   # XML
+defusedxml>=0.7             # XML sécurisé (protection XXE)
+pyreadstat>=1.2             # SPSS (SAV) ; repli pour SAS7BDAT. Stata (DTA) est lu nativement par pandas.
+
+# --- Outils de développement ---
+pytest>=7.4
+pillow>=10                  # génération du logo (scripts/make_logo.py)
+
+# --- Optionnels (non requis) ---
+# polars>=1.0               # lecture CSV rapide (option « expérimental » de l'import)
+# scikit-learn>=1.4         # non utilisé à ce stade (extensions futures : ACP, clustering)
+# pymupdf>=1.24             # uniquement pour le test qui relit le contenu du PDF généré

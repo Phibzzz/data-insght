@@ -1,0 +1,21 @@
+{
+  "nav.section.start": "Get started",
+  "nav.section.analysis": "Analyze",
+  "nav.section.prepare": "Prepare & export",
+  "nav.home": "Home",
+  "nav.import": "Data import",
+  "nav.overview": "Overview",
+  "nav.explore": "Exploration",
+  "nav.profile": "Variable profile",
+  "nav.stats": "Descriptive statistics",
+  "nav.multivariate": "Multivariate analysis",
+  "nav.quality": "Data quality",
+  "nav.viz": "Visualizations",
+  "nav.cleaning": "Data cleaning",
+  "nav.reports": "Reports",
+  "nav.settings": "Settings",
+  "home.tagline": "Import a dataset: DATAINSIGHT recognizes its structure, assesses its quality, computes statistics, builds charts and writes a report, entirely on your machine.",
+  "common.no_data": "No dataset loaded.",
+  "common.download": "Download",
+  "common.reset": "Reset"
+}
